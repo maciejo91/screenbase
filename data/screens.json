@@ -1643,5 +1643,766 @@
     "description": "Vercel overview with a 'Something went wrong' panel next to usage and alerts.",
     "source": "research",
     "addedAt": "2026-10-29T16:13:00.753Z"
+  },
+  {
+    "id": "137e3db45502",
+    "file": "attio-137e3db45502.png",
+    "thumb": "137e3db45502.webp",
+    "width": 2010,
+    "height": 1356,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "table view",
+      "bulk actions",
+      "bulk select",
+      "people",
+      "floating toolbar"
+    ],
+    "description": "Attio People table with rows multi-selected and a floating bulk-action toolbar.",
+    "source": "https://attio.com/help/reference/apps/communication-apps/aircall-app",
+    "addedAt": "2026-10-29T16:18:57.194Z"
+  },
+  {
+    "id": "c6d8a3fa146b",
+    "file": "attio-c6d8a3fa146b.png",
+    "thumb": "c6d8a3fa146b.webp",
+    "width": 2137,
+    "height": 1476,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "empty state",
+    "tags": [
+      "empty state",
+      "table view",
+      "companies",
+      "add column cta"
+    ],
+    "description": "Attio Companies view with no attribute columns yet: 'Add your first attribute column' empty state.",
+    "source": "https://attio.com/help/reference/attio-101/attios-data-model/understanding-records",
+    "addedAt": "2026-10-29T16:18:57.195Z"
+  },
+  {
+    "id": "7f0b1e8db9fa",
+    "file": "attio-7f0b1e8db9fa.png",
+    "thumb": "7f0b1e8db9fa.webp",
+    "width": 2932,
+    "height": 1664,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "table view",
+      "companies",
+      "status pills",
+      "column headers",
+      "record count"
+    ],
+    "description": "Attio Companies table view with enriched columns like city, employee range and ARR.",
+    "source": "https://attio.com/help/reference/attio-101/attios-data-model/understanding-records",
+    "addedAt": "2026-10-29T16:18:57.196Z"
+  },
+  {
+    "id": "d0d802f74c3a",
+    "file": "attio-d0d802f74c3a.png",
+    "thumb": "d0d802f74c3a.webp",
+    "width": 1468,
+    "height": 1112,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "record page",
+      "tasks",
+      "tabs",
+      "context menu",
+      "due dates"
+    ],
+    "description": "Attio company record (Notion) on the Tasks tab with grouped tasks and a delete menu.",
+    "source": "https://attio.com/help/reference/attio-101/productivity/introduction-to-tasks",
+    "addedAt": "2026-10-29T16:18:57.197Z"
+  },
+  {
+    "id": "e12789041777",
+    "file": "attio-e12789041777.png",
+    "thumb": "e12789041777.webp",
+    "width": 2336,
+    "height": 1770,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "inbox",
+    "tags": [
+      "sequences",
+      "conversation list",
+      "email thread",
+      "timeline",
+      "recipients"
+    ],
+    "description": "Attio sequence recipients list with per-recipient email step timeline.",
+    "source": "https://attio.com/help/reference/automations/sequences/track-status-of-sequence-recipients",
+    "addedAt": "2026-10-29T16:18:57.198Z"
+  },
+  {
+    "id": "9d5553ddb243",
+    "file": "attio-9d5553ddb243.png",
+    "thumb": "9d5553ddb243.webp",
+    "width": 1672,
+    "height": 1296,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "email composer",
+      "send email",
+      "slash menu",
+      "modal"
+    ],
+    "description": "Attio Compose email modal with recipients, subject and a slash-command insert menu.",
+    "source": "https://attio.com/help/reference/email-calendar/send-emails-in-attio",
+    "addedAt": "2026-10-29T16:18:57.199Z"
+  },
+  {
+    "id": "29310addec41",
+    "file": "attio-29310addec41.png",
+    "thumb": "29310addec41.webp",
+    "width": 1992,
+    "height": 902,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "record page",
+      "emails",
+      "access control",
+      "popover",
+      "tabs"
+    ],
+    "description": "Attio company record Emails tab with an email-access popover.",
+    "source": "https://attio.com/help/reference/email-calendar/sharing-emails",
+    "addedAt": "2026-10-29T16:18:57.200Z"
+  },
+  {
+    "id": "b3e131bbdc84",
+    "file": "attio-b3e131bbdc84.png",
+    "thumb": "b3e131bbdc84.webp",
+    "width": 1606,
+    "height": 952,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "empty state",
+    "tags": [
+      "empty state",
+      "templates",
+      "settings",
+      "create cta"
+    ],
+    "description": "Attio People object Templates settings with a 'No templates yet' empty state.",
+    "source": "https://attio.com/help/reference/managing-your-data/create-record-and-list-entry-templates",
+    "addedAt": "2026-10-29T16:18:57.201Z"
+  },
+  {
+    "id": "a6f0ebe55fee",
+    "file": "attio-a6f0ebe55fee.png",
+    "thumb": "a6f0ebe55fee.webp",
+    "width": 2420,
+    "height": 1430,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "reports",
+    "tags": [
+      "charts",
+      "report builder",
+      "deal stage",
+      "bar chart"
+    ],
+    "description": "Attio report builder: Deals in stage bar chart with data source and grouping config.",
+    "source": "https://attio.com/help/reference/managing-your-data/dashboard-and-reports/build-a-sales-reporting-dashboard",
+    "addedAt": "2026-10-29T16:18:57.202Z"
+  },
+  {
+    "id": "39c44cf95066",
+    "file": "attio-39c44cf95066.png",
+    "thumb": "39c44cf95066.webp",
+    "width": 2476,
+    "height": 1172,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "dashboard",
+    "tags": [
+      "dashboard",
+      "funnel",
+      "charts",
+      "deal stage"
+    ],
+    "description": "Attio Sales Dashboard with a pipeline funnel report.",
+    "source": "https://attio.com/help/reference/managing-your-data/dashboard-and-reports/dashboards",
+    "addedAt": "2026-10-29T16:18:57.203Z"
+  },
+  {
+    "id": "149dd4b72a1a",
+    "file": "attio-149dd4b72a1a.png",
+    "thumb": "149dd4b72a1a.webp",
+    "width": 2469,
+    "height": 1459,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "dashboard",
+    "tags": [
+      "dashboard",
+      "kpi cards",
+      "charts",
+      "stacked bar"
+    ],
+    "description": "Attio Revenue Dashboard with a Total ARR metric and active-deals-by-owner stacked bar chart.",
+    "source": "https://attio.com/help/reference/managing-your-data/dashboard-and-reports/dashboards",
+    "addedAt": "2026-10-29T16:18:57.204Z"
+  },
+  {
+    "id": "8bcfc5515160",
+    "file": "attio-8bcfc5515160.png",
+    "thumb": "8bcfc5515160.webp",
+    "width": 1904,
+    "height": 910,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "empty state",
+    "tags": [
+      "report builder",
+      "empty state",
+      "report types",
+      "charts"
+    ],
+    "description": "Attio new report with 'Input needed to display chart' and a chooser of report types.",
+    "source": "https://attio.com/help/reference/managing-your-data/dashboard-and-reports/reports",
+    "addedAt": "2026-10-29T16:18:57.205Z"
+  },
+  {
+    "id": "bacddc2de3cd",
+    "file": "attio-bacddc2de3cd.png",
+    "thumb": "bacddc2de3cd.webp",
+    "width": 2432,
+    "height": 1342,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "reports",
+    "tags": [
+      "charts",
+      "report builder",
+      "historical values",
+      "bar chart",
+      "time range"
+    ],
+    "description": "Attio historical values report: deals by stage monthly with period presets.",
+    "source": "https://attio.com/help/reference/managing-your-data/dashboard-and-reports/set-up-a-historical-values-report",
+    "addedAt": "2026-10-29T16:18:57.206Z"
+  },
+  {
+    "id": "8181be8dde28",
+    "file": "attio-8181be8dde28.png",
+    "thumb": "8181be8dde28.webp",
+    "width": 2526,
+    "height": 1370,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "onboarding",
+    "tags": [
+      "templates",
+      "list templates",
+      "modal",
+      "onboarding",
+      "categories"
+    ],
+    "description": "Attio list templates gallery modal organised by use case (sales, recruiting, fundraising).",
+    "source": "https://attio.com/help/reference/managing-your-data/lists/create-lists",
+    "addedAt": "2026-10-29T16:18:57.207Z"
+  },
+  {
+    "id": "a9fd61b0f762",
+    "file": "attio-a9fd61b0f762.png",
+    "thumb": "a9fd61b0f762.webp",
+    "width": 1520,
+    "height": 1070,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "search",
+    "tags": [
+      "command menu",
+      "quick actions",
+      "search",
+      "keyboard shortcuts"
+    ],
+    "description": "Attio quick actions / command menu for searching records and creating tasks, notes and records.",
+    "source": "https://attio.com/help/reference/managing-your-data/records/create-and-view-records",
+    "addedAt": "2026-10-29T16:18:57.208Z"
+  },
+  {
+    "id": "9812a8a1b7c9",
+    "file": "attio-9812a8a1b7c9.png",
+    "thumb": "9812a8a1b7c9.webp",
+    "width": 1686,
+    "height": 912,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "merge records",
+      "modal",
+      "duplicates",
+      "comparison"
+    ],
+    "description": "Attio Merge records modal comparing two Amazon company records side by side.",
+    "source": "https://attio.com/help/reference/managing-your-data/records/merge-and-delete-records",
+    "addedAt": "2026-10-29T16:18:57.209Z"
+  },
+  {
+    "id": "857c490c33df",
+    "file": "attio-857c490c33df.png",
+    "thumb": "857c490c33df.webp",
+    "width": 1536,
+    "height": 1024,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "record page",
+      "people",
+      "meeting",
+      "popover",
+      "activity timeline"
+    ],
+    "description": "Attio person record (Rachel Bennett) with an upcoming meeting popover and activity.",
+    "source": "https://attio.com/help/reference/productivity-collaborating/call-intelligence/recording-calls-with-attio",
+    "addedAt": "2026-10-29T16:18:57.210Z"
+  },
+  {
+    "id": "6d73b11b1cb2",
+    "file": "attio-6d73b11b1cb2.png",
+    "thumb": "6d73b11b1cb2.webp",
+    "width": 1240,
+    "height": 800,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "call recording",
+      "transcript",
+      "ai summary",
+      "insights",
+      "video"
+    ],
+    "description": "Attio call recording page with video, transcript and AI insights summary.",
+    "source": "https://attio.com/help/reference/productivity-collaborating/call-intelligence/view-and-manage-call-recordings",
+    "addedAt": "2026-10-29T16:18:57.211Z"
+  },
+  {
+    "id": "d7a5f5426fd7",
+    "file": "attio-d7a5f5426fd7.png",
+    "thumb": "d7a5f5426fd7.webp",
+    "width": 1258,
+    "height": 830,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "search",
+    "tags": [
+      "lists",
+      "list switcher",
+      "popover",
+      "sidebar nav"
+    ],
+    "description": "Attio sidebar list switcher popover with search and Create a list.",
+    "source": "https://attio.com/help/reference/productivity-collaborating/navigating-your-workspace",
+    "addedAt": "2026-10-29T16:18:57.212Z"
+  },
+  {
+    "id": "fa0f07e62224",
+    "file": "attio-fa0f07e62224.jpg",
+    "thumb": "fa0f07e62224.webp",
+    "width": 3840,
+    "height": 2160,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "calendar",
+    "tags": [
+      "meetings",
+      "upcoming meetings",
+      "side panel",
+      "call recording"
+    ],
+    "description": "Attio Upcoming meetings panel with a meeting detail and recording settings.",
+    "source": "https://attio.com/help/reference/productivity-collaborating/navigating-your-workspace",
+    "addedAt": "2026-10-29T16:18:57.213Z"
+  },
+  {
+    "id": "7ea193d387ac",
+    "file": "linear-7ea193d387ac.png",
+    "thumb": "7ea193d387ac.webp",
+    "width": 2820,
+    "height": 1352,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "list/table",
+    "tags": [
+      "issue list",
+      "sidebar nav",
+      "status groups",
+      "dark mode"
+    ],
+    "description": "Linear Active issues list grouped by status with team sidebar (dark).",
+    "source": "https://linear.app/docs/conceptual-model",
+    "addedAt": "2026-10-29T16:18:59.257Z"
+  },
+  {
+    "id": "ebb3f3e5d706",
+    "file": "linear-ebb3f3e5d706.png",
+    "thumb": "ebb3f3e5d706.webp",
+    "width": 2105,
+    "height": 1332,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "detail/record",
+    "tags": [
+      "project page",
+      "properties",
+      "resources",
+      "project updates",
+      "dark mode"
+    ],
+    "description": "Linear project overview (Mexico launch) with properties, resources and latest update.",
+    "source": "https://linear.app/docs/projects",
+    "addedAt": "2026-10-29T16:18:59.258Z"
+  },
+  {
+    "id": "d27f130f4ef8",
+    "file": "linear-d27f130f4ef8.png",
+    "thumb": "d27f130f4ef8.webp",
+    "width": 2176,
+    "height": 978,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "pipeline/kanban",
+    "tags": [
+      "kanban",
+      "projects",
+      "board",
+      "grouping",
+      "dark mode"
+    ],
+    "description": "Linear Projects board grouped by investment area and label (dark).",
+    "source": "https://linear.app/docs/project-labels",
+    "addedAt": "2026-10-29T16:18:59.259Z"
+  },
+  {
+    "id": "118132fb8640",
+    "file": "linear-118132fb8640.png",
+    "thumb": "118132fb8640.webp",
+    "width": 1344,
+    "height": 960,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "list/table",
+    "tags": [
+      "initiatives",
+      "table view",
+      "progress",
+      "health",
+      "dark mode"
+    ],
+    "description": "Linear Initiatives list with health, progress and project counts.",
+    "source": "https://linear.app/docs/initiatives",
+    "addedAt": "2026-10-29T16:18:59.260Z"
+  },
+  {
+    "id": "42582a08c4ec",
+    "file": "linear-42582a08c4ec.png",
+    "thumb": "42582a08c4ec.webp",
+    "width": 2368,
+    "height": 1780,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "list/table",
+    "tags": [
+      "initiatives",
+      "sub-initiatives",
+      "table view",
+      "nesting"
+    ],
+    "description": "Linear Initiatives list (light) with nested sub-initiatives and health status.",
+    "source": "https://linear.app/docs/sub-initiatives",
+    "addedAt": "2026-10-29T16:18:59.261Z"
+  },
+  {
+    "id": "387ede6d794e",
+    "file": "linear-387ede6d794e.png",
+    "thumb": "387ede6d794e.webp",
+    "width": 3598,
+    "height": 2700,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "detail/record",
+    "tags": [
+      "initiatives",
+      "project updates",
+      "properties",
+      "dark mode"
+    ],
+    "description": "Linear initiative overview (Q1 Product Launch Alignment) with latest update.",
+    "source": "https://linear.app/docs/initiative-and-project-updates",
+    "addedAt": "2026-10-29T16:18:59.262Z"
+  },
+  {
+    "id": "d2a3e2dcc70b",
+    "file": "linear-d2a3e2dcc70b.jpg",
+    "thumb": "d2a3e2dcc70b.webp",
+    "width": 2392,
+    "height": 1434,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "detail/record",
+    "tags": [
+      "issue detail",
+      "properties panel",
+      "activity feed",
+      "comments",
+      "dark mode"
+    ],
+    "description": "Linear issue detail with description, activity and a properties side panel.",
+    "source": "https://linear.app/docs/assigning-issues",
+    "addedAt": "2026-10-29T16:18:59.263Z"
+  },
+  {
+    "id": "ea015e40e9fc",
+    "file": "linear-ea015e40e9fc.png",
+    "thumb": "ea015e40e9fc.webp",
+    "width": 1446,
+    "height": 958,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "settings",
+    "tags": [
+      "cycles",
+      "toggles",
+      "settings",
+      "dark mode"
+    ],
+    "description": "Linear team Cycles settings: duration, cooldown, start day and upcoming cycles.",
+    "source": "https://linear.app/docs/use-cycles",
+    "addedAt": "2026-10-29T16:18:59.264Z"
+  },
+  {
+    "id": "ad7b946000cc",
+    "file": "linear-ad7b946000cc.png",
+    "thumb": "ad7b946000cc.webp",
+    "width": 1596,
+    "height": 1034,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "detail/record",
+    "tags": [
+      "triage",
+      "ai suggestions",
+      "issue detail",
+      "popover",
+      "dark mode"
+    ],
+    "description": "Linear Triage Intelligence suggestions on an issue with an assignee suggestion popover.",
+    "source": "https://linear.app/docs/triage-intelligence",
+    "addedAt": "2026-10-29T16:18:59.265Z"
+  },
+  {
+    "id": "b98b1d7440d0",
+    "file": "linear-b98b1d7440d0.png",
+    "thumb": "b98b1d7440d0.webp",
+    "width": 2016,
+    "height": 1036,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "list/table",
+    "tags": [
+      "dashboards",
+      "table view",
+      "sidebar nav",
+      "dark mode"
+    ],
+    "description": "Linear Dashboards list under Views with owners.",
+    "source": "https://linear.app/docs/dashboards",
+    "addedAt": "2026-10-29T16:18:59.266Z"
+  },
+  {
+    "id": "5d098b7289af",
+    "file": "linear-5d098b7289af.png",
+    "thumb": "5d098b7289af.webp",
+    "width": 2258,
+    "height": 1512,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "reports",
+    "tags": [
+      "insights",
+      "charts",
+      "issue list",
+      "side panel",
+      "dark mode"
+    ],
+    "description": "Linear view with Insights panel showing a bar chart by status alongside the issue list.",
+    "source": "https://linear.app/docs/dashboards",
+    "addedAt": "2026-10-29T16:18:59.267Z"
+  },
+  {
+    "id": "c845c78338ca",
+    "file": "linear-c845c78338ca.png",
+    "thumb": "c845c78338ca.webp",
+    "width": 2160,
+    "height": 1327,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "reports",
+    "tags": [
+      "insights",
+      "charts",
+      "bar chart",
+      "data table",
+      "dark mode"
+    ],
+    "description": "Linear Insights: issue counts by assignee as bar chart with data table.",
+    "source": "https://linear.app/docs/insights",
+    "addedAt": "2026-10-29T16:18:59.268Z"
+  },
+  {
+    "id": "edfde7f2c710",
+    "file": "linear-edfde7f2c710.png",
+    "thumb": "edfde7f2c710.webp",
+    "width": 2110,
+    "height": 976,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "reports",
+    "tags": [
+      "cycles",
+      "cycle graph",
+      "burn-up",
+      "progress",
+      "dark mode"
+    ],
+    "description": "Linear All cycles list with an expanded cycle burn-up graph and scope/started/completed stats.",
+    "source": "https://linear.app/docs/cycle-graph",
+    "addedAt": "2026-10-29T16:18:59.269Z"
+  },
+  {
+    "id": "b442b3402787",
+    "file": "linear-b442b3402787.png",
+    "thumb": "b442b3402787.webp",
+    "width": 3600,
+    "height": 2080,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "inbox",
+    "tags": [
+      "inbox",
+      "notifications",
+      "priority",
+      "dark mode"
+    ],
+    "description": "Linear Inbox with Priority/Other tabs and notification rows.",
+    "source": "https://linear.app/docs/inbox",
+    "addedAt": "2026-10-29T16:18:59.270Z"
+  },
+  {
+    "id": "e90d0db2c8e9",
+    "file": "linear-e90d0db2c8e9.png",
+    "thumb": "e90d0db2c8e9.webp",
+    "width": 1864,
+    "height": 842,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "list/table",
+    "tags": [
+      "my issues",
+      "issue list",
+      "tabs",
+      "status groups",
+      "dark mode"
+    ],
+    "description": "Linear My issues (Assigned) grouped by status.",
+    "source": "https://linear.app/docs/my-issues",
+    "addedAt": "2026-10-29T16:18:59.271Z"
+  },
+  {
+    "id": "97fc7840c7e8",
+    "file": "linear-97fc7840c7e8.png",
+    "thumb": "97fc7840c7e8.webp",
+    "width": 2396,
+    "height": 1634,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "settings",
+    "tags": [
+      "notifications",
+      "settings nav",
+      "settings",
+      "dark mode"
+    ],
+    "description": "Linear Notifications settings with delivery methods and updates toggles.",
+    "source": "https://linear.app/docs/notifications",
+    "addedAt": "2026-10-29T16:18:59.272Z"
+  },
+  {
+    "id": "2218608e9b12",
+    "file": "linear-2218608e9b12.png",
+    "thumb": "2218608e9b12.webp",
+    "width": 2560,
+    "height": 1440,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "pipeline/kanban",
+    "tags": [
+      "board",
+      "projects",
+      "timeline",
+      "quarters"
+    ],
+    "description": "Linear projects board by quarter columns and status rows (light).",
+    "source": "https://linear.app/docs/board-layout",
+    "addedAt": "2026-10-29T16:18:59.273Z"
+  },
+  {
+    "id": "aceda1aa0597",
+    "file": "linear-aceda1aa0597.png",
+    "thumb": "aceda1aa0597.webp",
+    "width": 4460,
+    "height": 2868,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "calendar",
+    "tags": [
+      "timeline",
+      "roadmap",
+      "gantt",
+      "milestones",
+      "dark mode"
+    ],
+    "description": "Linear project timeline / roadmap with milestones on a Gantt chart.",
+    "source": "https://linear.app/docs/timeline",
+    "addedAt": "2026-10-29T16:18:59.274Z"
+  },
+  {
+    "id": "13301c5ff28e",
+    "file": "linear-13301c5ff28e.png",
+    "thumb": "13301c5ff28e.webp",
+    "width": 2494,
+    "height": 1021,
+    "app": "Linear",
+    "category": "Dev tools",
+    "screenType": "list/table",
+    "tags": [
+      "custom views",
+      "filters",
+      "issue list",
+      "save view",
+      "dark mode"
+    ],
+    "description": "Linear custom view editor with filter chips, issue list and view sidebar.",
+    "source": "https://linear.app/docs/custom-views",
+    "addedAt": "2026-10-29T16:18:59.275Z"
   }
 ]
