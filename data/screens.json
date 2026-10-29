@@ -2442,7 +2442,7 @@
       "lead",
       "opportunity"
     ],
-    "description": "Business process flow stages (Qualify \u2192 Develop \u2192 Propose \u2192 Close) across the top of a record",
+    "description": "Business process flow stages (Qualify → Develop → Propose → Close) across the top of a record",
     "source": "https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview",
     "addedAt": "2026-10-29T17:44:12.470Z"
   },
@@ -3008,7 +3008,7 @@
       "subscription",
       "upsell"
     ],
-    "description": "Account & Billing \u203a Products & Add-ons: plan, additional seats and credits with View pricing",
+    "description": "Account & Billing › Products & Add-ons: plan, additional seats and credits with View pricing",
     "source": "https://knowledge.hubspot.com/billing/where-can-i-find-my-subscription-and-contacts-or-email-send-limit-information-in-hubspot",
     "addedAt": "2026-10-29T17:44:13.604Z"
   },
@@ -3147,5 +3147,132 @@
     "description": "Home upgrade banner: Upgrade to the Team plan before your trial expires in 13 days",
     "source": "https://support.airtable.com/docs/airtable-plans",
     "addedAt": "2026-10-29T17:44:13.788Z"
+  },
+  {
+    "id": "eec05194b009",
+    "file": "tekion-eec05194b009.webp",
+    "thumb": "eec05194b009.webp",
+    "width": 2600,
+    "height": 1741,
+    "app": "Tekion",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "automotive",
+      "lead",
+      "ai agent",
+      "command bar",
+      "dark mode",
+      "marketing crop"
+    ],
+    "description": "Tekion ARC AI command: 'Open Sarah Chen as a lead, assign to Jake' executing CRM, Sales, Inventory and Outreach actions",
+    "source": "https://tekion.com/products/arc",
+    "addedAt": "2026-10-29T19:28:22.657Z"
+  },
+  {
+    "id": "fc678f513741",
+    "file": "tekion-fc678f513741.webp",
+    "thumb": "fc678f513741.webp",
+    "width": 1600,
+    "height": 1073,
+    "app": "Tekion",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "automotive",
+      "vehicle",
+      "repair order",
+      "progress stepper",
+      "service",
+      "marketing crop"
+    ],
+    "description": "Repair order record: RO number, customer, vehicle (2022 Electric Phantom), status stepper Received→In Service→Payment→Ready→Complete, documents list",
+    "source": "https://tekion.com/products/arc/dse",
+    "addedAt": "2026-10-29T19:28:22.749Z"
+  },
+  {
+    "id": "acddd7d85095",
+    "file": "tekion-acddd7d85095.webp",
+    "thumb": "acddd7d85095.webp",
+    "width": 1884,
+    "height": 1099,
+    "app": "Tekion",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "automotive",
+      "customer",
+      "customer 360",
+      "activity feed",
+      "record page",
+      "marketing crop"
+    ],
+    "description": "Customer 360 card: customer since 5 yrs, financial overview (lifetime value), support team and activity (lead created, appointment, RO, payment)",
+    "source": "https://tekion.com/products/arc/crm",
+    "addedAt": "2026-10-29T19:28:22.785Z"
+  },
+  {
+    "id": "50fb405a0bcd",
+    "file": "tekion-50fb405a0bcd.webp",
+    "thumb": "50fb405a0bcd.webp",
+    "width": 2600,
+    "height": 1743,
+    "app": "Tekion",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "automotive",
+      "customer",
+      "activity timeline",
+      "record page",
+      "tabs",
+      "marketing crop"
+    ],
+    "description": "Customer profile with department tabs (BDC, Sales, Service, Accounting, Marketing) and activity timeline",
+    "source": "https://tekion.com/products/arc/crm",
+    "addedAt": "2026-10-29T19:28:22.833Z"
+  },
+  {
+    "id": "e0b5ee41667b",
+    "file": "tekion-e0b5ee41667b.webp",
+    "thumb": "e0b5ee41667b.webp",
+    "width": 1414,
+    "height": 1256,
+    "app": "Tekion",
+    "category": "CRM",
+    "screenType": "reports",
+    "tags": [
+      "automotive",
+      "service",
+      "repair order",
+      "table view",
+      "charts",
+      "dark mode",
+      "marketing crop"
+    ],
+    "description": "Open RO Details report: bar chart and repair-order table (RO flag, advisor, age, status, gross profit)",
+    "source": "https://tekion.com/products/arc/dse",
+    "addedAt": "2026-10-29T19:28:22.870Z"
+  },
+  {
+    "id": "2ea06b7dd9f2",
+    "file": "tekion-2ea06b7dd9f2.webp",
+    "thumb": "2ea06b7dd9f2.webp",
+    "width": 2000,
+    "height": 1125,
+    "app": "Tekion",
+    "category": "CRM",
+    "screenType": "dashboard",
+    "tags": [
+      "automotive",
+      "dashboard",
+      "gross profit",
+      "forecast",
+      "dark mode",
+      "marketing crop"
+    ],
+    "description": "Executive dashboard: total gross, projected vs forecast table by department",
+    "source": "https://tekion.com/products/arc/advanced-analytics",
+    "addedAt": "2026-10-29T19:28:22.925Z"
   }
 ]
