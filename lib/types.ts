@@ -32,6 +32,7 @@ export const SCREEN_TYPES = [
   "settings",
   "login",
   "empty state",
+  "error",
   "modal",
   "search",
   "reports",
