@@ -1,0 +1,559 @@
+[
+  {
+    "id": "0db5c2017585",
+    "file": "unknown-0db5c2017585.png",
+    "thumb": "0db5c2017585.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "record page",
+      "attribute list",
+      "highlights cards",
+      "activity feed",
+      "tabs",
+      "sidebar nav"
+    ],
+    "description": "Attio deal record with attribute list on the left and highlight cards showing the deal stage progress bar.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.157Z"
+  },
+  {
+    "id": "15c857074a4b",
+    "file": "unknown-15c857074a4b.png",
+    "thumb": "15c857074a4b.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage dropdown",
+      "inline edit",
+      "searchable select",
+      "status pills",
+      "record page"
+    ],
+    "description": "Attio deal record with the inline stage select open, listing colour-dotted stages with search.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.158Z"
+  },
+  {
+    "id": "640f3523bfaf",
+    "file": "unknown-640f3523bfaf.png",
+    "thumb": "640f3523bfaf.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead status",
+      "record page",
+      "opportunity card",
+      "collapsible sections",
+      "activity feed",
+      "ai summary"
+    ],
+    "description": "Close lead record with a status pill under the name, an opportunity card and the activity feed.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.159Z"
+  },
+  {
+    "id": "96ef1ebeb3b5",
+    "file": "unknown-96ef1ebeb3b5.png",
+    "thumb": "96ef1ebeb3b5.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead status",
+      "status dropdown",
+      "inline edit",
+      "customizable statuses",
+      "record page"
+    ],
+    "description": "Close lead record with the lead status dropdown open, offering customisable statuses.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.160Z"
+  },
+  {
+    "id": "ef3283c5ac37",
+    "file": "unknown-ef3283c5ac37.png",
+    "thumb": "ef3283c5ac37.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "opportunity status",
+      "status dropdown",
+      "inline edit",
+      "deal stage",
+      "customizable statuses",
+      "opportunity card"
+    ],
+    "description": "Close opportunity card with the status dropdown open (Demo Completed through Won/Lost).",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.161Z"
+  },
+  {
+    "id": "d5777315f0d4",
+    "file": "unknown-d5777315f0d4.png",
+    "thumb": "d5777315f0d4.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "record page",
+      "stage badge",
+      "ai summary",
+      "associations sidebar",
+      "empty state",
+      "quick actions"
+    ],
+    "description": "HubSpot deal record with a deal stage badge, AI record summary and association cards in the right sidebar.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.162Z"
+  },
+  {
+    "id": "1eba26a3446f",
+    "file": "unknown-1eba26a3446f.png",
+    "thumb": "1eba26a3446f.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage dropdown",
+      "inline edit",
+      "searchable select",
+      "colored badges"
+    ],
+    "description": "HubSpot deal record with the deal stage dropdown open, showing colour-coded stage badges.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.163Z"
+  },
+  {
+    "id": "3a505bf449d2",
+    "file": "unknown-3a505bf449d2.png",
+    "thumb": "3a505bf449d2.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage path",
+      "progress stepper",
+      "won/lost buttons",
+      "activity composer",
+      "record page"
+    ],
+    "description": "Pipedrive deal record with a chevron stage path showing days in each stage, plus Won/Lost buttons.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.164Z"
+  },
+  {
+    "id": "968e83181c81",
+    "file": "unknown-968e83181c81.png",
+    "thumb": "968e83181c81.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage path",
+      "tooltip",
+      "hover state",
+      "progress stepper"
+    ],
+    "description": "Pipedrive deal stage path with a hover tooltip explaining the time spent in a stage.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.165Z"
+  },
+  {
+    "id": "aebc6e5fe494",
+    "file": "unknown-aebc6e5fe494.png",
+    "thumb": "aebc6e5fe494.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "popover",
+      "pipeline selector",
+      "progress stepper",
+      "inline edit"
+    ],
+    "description": "Pipedrive pipeline-and-stage popover for moving a deal, with a mini segmented stage picker.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.166Z"
+  },
+  {
+    "id": "42d76a438bf2",
+    "file": "unknown-42d76a438bf2.png",
+    "thumb": "42d76a438bf2.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Salesforce",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "sales path",
+      "deal stage",
+      "progress stepper",
+      "guidance for success",
+      "key fields",
+      "record page"
+    ],
+    "description": "Salesforce Lightning opportunity with the sales path, key fields and stage guidance.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.167Z"
+  },
+  {
+    "id": "1150d241ab1b",
+    "file": "unknown-1150d241ab1b.png",
+    "thumb": "1150d241ab1b.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Salesforce",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "sales path",
+      "deal stage",
+      "hover state",
+      "mark as current",
+      "progress stepper"
+    ],
+    "description": "Salesforce opportunity path hovering a future stage, with a 'Mark as Current Stage' action.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.168Z"
+  },
+  {
+    "id": "9bb6642fd82e",
+    "file": "unknown-9bb6642fd82e.png",
+    "thumb": "9bb6642fd82e.webp",
+    "width": 1920,
+    "height": 1113,
+    "app": "Salesforce",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage dropdown",
+      "edit mode",
+      "form",
+      "inline edit"
+    ],
+    "description": "Salesforce opportunity in full edit mode with the Stage picklist open.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.169Z"
+  },
+  {
+    "id": "1a732db1ab3d",
+    "file": "unknown-1a732db1ab3d.png",
+    "thumb": "1a732db1ab3d.webp",
+    "width": 1829,
+    "height": 1067,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "record page",
+      "highlights cards",
+      "attribute list",
+      "list entries",
+      "activity feed",
+      "tabs"
+    ],
+    "description": "Attio company record (Mailchimp) with attributes, list memberships, highlight cards and email/notes feeds.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.170Z"
+  },
+  {
+    "id": "74aed50963d5",
+    "file": "unknown-74aed50963d5.png",
+    "thumb": "74aed50963d5.webp",
+    "width": 1962,
+    "height": 1550,
+    "app": "Attio",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "list entries",
+      "deal stage",
+      "status pills",
+      "record page",
+      "cards"
+    ],
+    "description": "Close-up of Attio record list-entry cards, each showing its own stage and list-specific fields.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.171Z"
+  },
+  {
+    "id": "b8c15c9a06ca",
+    "file": "unknown-b8c15c9a06ca.png",
+    "thumb": "b8c15c9a06ca.webp",
+    "width": 2000,
+    "height": 791,
+    "app": "Clarify",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "ai summary",
+      "details panel",
+      "tasks",
+      "status pills",
+      "record page"
+    ],
+    "description": "Clarify deal record with an AI-generated summary, tasks, and a details panel with the stage pill.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.172Z"
+  },
+  {
+    "id": "cfb6637ddca4",
+    "file": "unknown-cfb6637ddca4.png",
+    "thumb": "cfb6637ddca4.webp",
+    "width": 2880,
+    "height": 1640,
+    "app": "Clarify",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "ai summary",
+      "details panel",
+      "sidebar nav",
+      "tasks",
+      "record page"
+    ],
+    "description": "Clarify deal record with a structured AI deal summary and a right-hand details panel showing the stage.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.173Z"
+  },
+  {
+    "id": "cdc655044f2f",
+    "file": "unknown-cdc655044f2f.png",
+    "thumb": "cdc655044f2f.webp",
+    "width": 2264,
+    "height": 1146,
+    "app": "folk",
+    "category": "CRM",
+    "screenType": "pipeline/kanban",
+    "tags": [
+      "kanban",
+      "side panel",
+      "deal stage",
+      "status pills",
+      "deal cards",
+      "tabs"
+    ],
+    "description": "folk deals pipeline board with a deal opened in a side panel showing its status pill and fields.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.174Z"
+  },
+  {
+    "id": "0c3ea265b054",
+    "file": "unknown-0c3ea265b054.png",
+    "thumb": "0c3ea265b054.webp",
+    "width": 900,
+    "height": 282,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "popover",
+      "pipeline selector",
+      "progress stepper",
+      "won/lost buttons"
+    ],
+    "description": "Pipedrive stage-change popover opened from the pipeline breadcrumb under the stage path.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.175Z"
+  },
+  {
+    "id": "d3528a2625ec",
+    "file": "unknown-d3528a2625ec.png",
+    "thumb": "d3528a2625ec.webp",
+    "width": 1075,
+    "height": 793,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage path",
+      "progress stepper",
+      "activity timeline",
+      "stage history",
+      "won/lost buttons"
+    ],
+    "description": "Pipedrive deal record with stage path and a history timeline that logs stage changes.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.176Z"
+  },
+  {
+    "id": "f666b9f8d18b",
+    "file": "unknown-f666b9f8d18b.png",
+    "thumb": "f666b9f8d18b.webp",
+    "width": 1432,
+    "height": 476,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "progress stepper",
+      "segmented progress",
+      "time in stage",
+      "card"
+    ],
+    "description": "HubSpot deal stage tracker card with a segmented progress bar and time-in-stage badge.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.177Z"
+  },
+  {
+    "id": "6e7818994e5e",
+    "file": "unknown-6e7818994e5e.png",
+    "thumb": "6e7818994e5e.webp",
+    "width": 3720,
+    "height": 1620,
+    "app": "Capsule",
+    "category": "CRM",
+    "screenType": "pipeline/kanban",
+    "tags": [
+      "kanban",
+      "side panel",
+      "milestone",
+      "progress bar",
+      "filters",
+      "deal cards"
+    ],
+    "description": "Capsule sales pipeline board with a deal preview panel showing its milestone and a progress bar.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.178Z"
+  },
+  {
+    "id": "3dbb6a7b2d2e",
+    "file": "unknown-3dbb6a7b2d2e.png",
+    "thumb": "3dbb6a7b2d2e.webp",
+    "width": 999,
+    "height": 412,
+    "app": "Salesforce",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "sales path",
+      "lead status",
+      "progress stepper",
+      "guidance for success",
+      "key fields",
+      "mark complete"
+    ],
+    "description": "Salesforce lead record with a status path, key fields and qualification guidance.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.179Z"
+  },
+  {
+    "id": "25d8896ae10d",
+    "file": "unknown-25d8896ae10d.png",
+    "thumb": "25d8896ae10d.webp",
+    "width": 1600,
+    "height": 432,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead status",
+      "record page",
+      "activity feed",
+      "filters",
+      "status pills"
+    ],
+    "description": "Close lead record header with a status pill dropdown and a filtered activity feed.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.180Z"
+  },
+  {
+    "id": "975bba4d0ba0",
+    "file": "unknown-975bba4d0ba0.png",
+    "thumb": "975bba4d0ba0.webp",
+    "width": 672,
+    "height": 800,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "opportunity card",
+      "opportunity status",
+      "status pills",
+      "collapsible sections",
+      "inline edit"
+    ],
+    "description": "Close opportunity card showing pipeline and status pills, value and confidence.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.181Z"
+  },
+  {
+    "id": "38eb88fd1e93",
+    "file": "unknown-38eb88fd1e93.png",
+    "thumb": "38eb88fd1e93.webp",
+    "width": 1112,
+    "height": 723,
+    "app": "Streak",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal stage",
+      "stage dropdown",
+      "ai autofill",
+      "custom fields",
+      "activity timeline",
+      "ai summary"
+    ],
+    "description": "Streak box (deal) view with a colored stage selector, AI summary and custom columns with AI autofill.",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.182Z"
+  },
+  {
+    "id": "e014b1124ea3",
+    "file": "unknown-e014b1124ea3.png",
+    "thumb": "e014b1124ea3.webp",
+    "width": 1200,
+    "height": 1062,
+    "app": "Copper",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "status pills",
+      "task list",
+      "card",
+      "popover",
+      "marketing crop"
+    ],
+    "description": "Copper-style record card with a Prospect status pill and an overlaid task list (marketing crop).",
+    "source": "own",
+    "addedAt": "2026-10-29T15:44:48.183Z"
+  }
+]
