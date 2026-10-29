@@ -2404,5 +2404,748 @@
     "description": "Linear custom view editor with filter chips, issue list and view sidebar.",
     "source": "https://linear.app/docs/custom-views",
     "addedAt": "2026-10-29T16:18:59.275Z"
+  },
+  {
+    "id": "82c514d3135d",
+    "file": "dynamics-365-sales-82c514d3135d.png",
+    "thumb": "82c514d3135d.webp",
+    "width": 1097,
+    "height": 505,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead",
+      "lead qualification",
+      "stage path",
+      "business process flow",
+      "record page",
+      "progress stepper"
+    ],
+    "description": "Lead record with business process flow bar open on the Qualify stage flyout (purchase timeframe, budget, decision maker) and Next Stage button",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-lead-sales",
+    "addedAt": "2026-10-29T17:44:12.423Z"
+  },
+  {
+    "id": "70454232f5ff",
+    "file": "dynamics-365-sales-70454232f5ff.png",
+    "thumb": "70454232f5ff.webp",
+    "width": 1347,
+    "height": 694,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "business process flow",
+      "stage path",
+      "progress stepper",
+      "lead",
+      "opportunity"
+    ],
+    "description": "Business process flow stages (Qualify \u2192 Develop \u2192 Propose \u2192 Close) across the top of a record",
+    "source": "https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview",
+    "addedAt": "2026-10-29T17:44:12.470Z"
+  },
+  {
+    "id": "f72ba0d8a2fa",
+    "file": "dynamics-365-sales-f72ba0d8a2fa.png",
+    "thumb": "f72ba0d8a2fa.webp",
+    "width": 1355,
+    "height": 501,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "business process flow",
+      "stage path",
+      "progress stepper",
+      "lead to opportunity"
+    ],
+    "description": "Default lead-to-opportunity business process flow bar on a record",
+    "source": "https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview",
+    "addedAt": "2026-10-29T17:44:12.513Z"
+  },
+  {
+    "id": "86f920315074",
+    "file": "dynamics-365-sales-86f920315074.png",
+    "thumb": "86f920315074.webp",
+    "width": 3151,
+    "height": 1555,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "sales process",
+      "opportunity",
+      "deal stage",
+      "stage path",
+      "admin"
+    ],
+    "description": "Opportunity sales process definition / stage designer",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/sales-pipeline-chart",
+    "addedAt": "2026-10-29T17:44:12.548Z"
+  },
+  {
+    "id": "bd2567e86a11",
+    "file": "dynamics-365-sales-bd2567e86a11.png",
+    "thumb": "bd2567e86a11.webp",
+    "width": 1018,
+    "height": 613,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "lead",
+      "form",
+      "quick create"
+    ],
+    "description": "Quick create form for a new lead",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-lead-sales",
+    "addedAt": "2026-10-29T17:44:12.635Z"
+  },
+  {
+    "id": "46eca145afb9",
+    "file": "dynamics-365-sales-46eca145afb9.png",
+    "thumb": "46eca145afb9.webp",
+    "width": 2522,
+    "height": 1134,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "lead score",
+      "table view",
+      "grade"
+    ],
+    "description": "My Open Leads Scored view: list with lead score, trend and grade columns",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/work-predictive-lead-scoring",
+    "addedAt": "2026-10-29T17:44:12.666Z"
+  },
+  {
+    "id": "0fa8088d01b6",
+    "file": "dynamics-365-sales-0fa8088d01b6.png",
+    "thumb": "0fa8088d01b6.webp",
+    "width": 1024,
+    "height": 587,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "opportunity",
+      "ai summary",
+      "insights",
+      "card",
+      "next best action"
+    ],
+    "description": "Sales assistant research / action cards carousel on an opportunity",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/next-best-actions-to-manage-opportunities",
+    "addedAt": "2026-10-29T17:44:12.704Z"
+  },
+  {
+    "id": "e3a0c1f99e74",
+    "file": "dynamics-365-sales-e3a0c1f99e74.png",
+    "thumb": "e3a0c1f99e74.webp",
+    "width": 2073,
+    "height": 2087,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "opportunity",
+      "ai summary",
+      "insights",
+      "risk",
+      "record page"
+    ],
+    "description": "Opportunity research insights panel with key insights and risks",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/use-sales-opportunity-agent",
+    "addedAt": "2026-10-29T17:44:12.741Z"
+  },
+  {
+    "id": "66234682d267",
+    "file": "hubspot-66234682d267.png",
+    "thumb": "66234682d267.webp",
+    "width": 994,
+    "height": 600,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead",
+      "lead stage",
+      "stage path",
+      "activity"
+    ],
+    "description": "Lead stage tracker card: owner, lead type, current stage and next activity",
+    "source": "https://knowledge.hubspot.com/records/view-a-lead-record",
+    "addedAt": "2026-10-29T17:44:12.806Z"
+  },
+  {
+    "id": "9e1ad99220b9",
+    "file": "hubspot-9e1ad99220b9.png",
+    "thumb": "9e1ad99220b9.webp",
+    "width": 998,
+    "height": 1708,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "deal",
+      "revenue",
+      "record page",
+      "charts",
+      "ai summary",
+      "side panel"
+    ],
+    "description": "Company record Revenue tab: customer lifetime value, report summary and deal amount chart",
+    "source": "https://knowledge.hubspot.com/records/work-with-records",
+    "addedAt": "2026-10-29T17:44:12.835Z"
+  },
+  {
+    "id": "34072b623423",
+    "file": "hubspot-34072b623423.png",
+    "thumb": "34072b623423.webp",
+    "width": 900,
+    "height": 1454,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "activity timeline",
+      "record page",
+      "contact",
+      "tabs"
+    ],
+    "description": "Record middle column with activity timeline",
+    "source": "https://knowledge.hubspot.com/records/work-with-records",
+    "addedAt": "2026-10-29T17:44:12.864Z"
+  },
+  {
+    "id": "ada798c8b203",
+    "file": "hubspot-ada798c8b203.png",
+    "thumb": "ada798c8b203.webp",
+    "width": 900,
+    "height": 1547,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "intelligence",
+      "insights",
+      "record page",
+      "customer"
+    ],
+    "description": "Record Intelligence tab with enrichment/insight cards",
+    "source": "https://knowledge.hubspot.com/records/work-with-records",
+    "addedAt": "2026-10-29T17:44:12.888Z"
+  },
+  {
+    "id": "0d29555d6aea",
+    "file": "hubspot-0d29555d6aea.png",
+    "thumb": "0d29555d6aea.webp",
+    "width": 900,
+    "height": 1532,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "ai summary",
+      "record page",
+      "customer",
+      "catch up"
+    ],
+    "description": "Record Catch-up tab with AI summary of recent activity",
+    "source": "https://knowledge.hubspot.com/records/work-with-records",
+    "addedAt": "2026-10-29T17:44:12.912Z"
+  },
+  {
+    "id": "bf8ff6d7c1c2",
+    "file": "hubspot-bf8ff6d7c1c2.png",
+    "thumb": "bf8ff6d7c1c2.webp",
+    "width": 2100,
+    "height": 792,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "prospecting workspace",
+      "sidebar nav",
+      "table view"
+    ],
+    "description": "Prospecting workspace leads tab with lead list",
+    "source": "https://knowledge.hubspot.com/records/manage-leads",
+    "addedAt": "2026-10-29T17:44:12.937Z"
+  },
+  {
+    "id": "09d508046f34",
+    "file": "hubspot-09d508046f34.png",
+    "thumb": "09d508046f34.webp",
+    "width": 2100,
+    "height": 870,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "pipeline/kanban",
+    "tags": [
+      "lead",
+      "lead stage",
+      "kanban",
+      "board view",
+      "lead pipeline"
+    ],
+    "description": "Leads board view grouped by lead stage (New, Attempting, Connected, Qualified)",
+    "source": "https://knowledge.hubspot.com/records/manage-leads",
+    "addedAt": "2026-10-29T17:44:12.964Z"
+  },
+  {
+    "id": "b01495875c46",
+    "file": "hubspot-b01495875c46.png",
+    "thumb": "b01495875c46.webp",
+    "width": 1160,
+    "height": 1008,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "prospecting workspace",
+      "saved views",
+      "sidebar nav"
+    ],
+    "description": "Prospecting workspace with saved lead views in the left sidebar",
+    "source": "https://knowledge.hubspot.com/records/manage-leads",
+    "addedAt": "2026-10-29T17:44:12.992Z"
+  },
+  {
+    "id": "c1b5b750483f",
+    "file": "pipedrive-c1b5b750483f.jpg",
+    "thumb": "c1b5b750483f.webp",
+    "width": 900,
+    "height": 415,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "leads inbox",
+      "bulk actions",
+      "table view",
+      "lead to deal"
+    ],
+    "description": "Leads inbox with bulk selection and Send group email / Convert to deals / Archive actions",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.043Z"
+  },
+  {
+    "id": "3d33f68b1a77",
+    "file": "pipedrive-3d33f68b1a77.jpg",
+    "thumb": "3d33f68b1a77.webp",
+    "width": 900,
+    "height": 417,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "leads inbox",
+      "lead to deal",
+      "convert",
+      "bulk actions"
+    ],
+    "description": "Leads inbox bulk action bar with Convert to deals highlighted",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.069Z"
+  },
+  {
+    "id": "4af19897ee9b",
+    "file": "pipedrive-4af19897ee9b.png",
+    "thumb": "4af19897ee9b.webp",
+    "width": 900,
+    "height": 502,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "leads inbox",
+      "table view",
+      "sidebar nav",
+      "labels"
+    ],
+    "description": "Leads inbox list with lead sources sidebar and labels",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.095Z"
+  },
+  {
+    "id": "d4333d5463ca",
+    "file": "pipedrive-d4333d5463ca.png",
+    "thumb": "d4333d5463ca.webp",
+    "width": 900,
+    "height": 479,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "leads inbox",
+      "filters",
+      "table view"
+    ],
+    "description": "Leads inbox with filters",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.124Z"
+  },
+  {
+    "id": "438d8d095ecd",
+    "file": "pipedrive-438d8d095ecd.png",
+    "thumb": "438d8d095ecd.webp",
+    "width": 900,
+    "height": 565,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "leads inbox",
+      "bulk edit",
+      "side panel"
+    ],
+    "description": "Leads inbox bulk edit side panel",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.153Z"
+  },
+  {
+    "id": "0b394cd118e4",
+    "file": "pipedrive-0b394cd118e4.png",
+    "thumb": "0b394cd118e4.webp",
+    "width": 900,
+    "height": 475,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "lead",
+      "leads inbox",
+      "sorting",
+      "table view",
+      "columns"
+    ],
+    "description": "Leads inbox sorted by column with column customization",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.183Z"
+  },
+  {
+    "id": "283e6b272182",
+    "file": "pipedrive-283e6b272182.png",
+    "thumb": "283e6b272182.webp",
+    "width": 1000,
+    "height": 755,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead",
+      "lead to deal",
+      "convert",
+      "record page",
+      "side panel"
+    ],
+    "description": "Lead detail view with Convert to deal action",
+    "source": "https://support.pipedrive.com/en/article/leads-inbox",
+    "addedAt": "2026-10-29T17:44:13.209Z"
+  },
+  {
+    "id": "d8823ac540fe",
+    "file": "close-d8823ac540fe.png",
+    "thumb": "d8823ac540fe.webp",
+    "width": 2132,
+    "height": 576,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead",
+      "record page",
+      "lead status",
+      "activity feed",
+      "contact"
+    ],
+    "description": "Lead detail page: company, status, contacts and activity feed",
+    "source": "https://help.close.com/docs/leads",
+    "addedAt": "2026-10-29T17:44:13.240Z"
+  },
+  {
+    "id": "8fb303a9631f",
+    "file": "close-8fb303a9631f.png",
+    "thumb": "8fb303a9631f.webp",
+    "width": 1684,
+    "height": 802,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead",
+      "ai summary",
+      "feedback",
+      "record page"
+    ],
+    "description": "AI lead summary with feedback form",
+    "source": "https://help.close.com/docs/leads",
+    "addedAt": "2026-10-29T17:44:13.308Z"
+  },
+  {
+    "id": "4a4b83685e2d",
+    "file": "close-4a4b83685e2d.png",
+    "thumb": "4a4b83685e2d.webp",
+    "width": 1968,
+    "height": 660,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "inbox",
+    "tags": [
+      "opportunity",
+      "reminders",
+      "deal stage",
+      "inbox"
+    ],
+    "description": "Inbox reminders for opportunities that exceeded typical duration in their status",
+    "source": "https://help.close.com/feature-guide/opportunities",
+    "addedAt": "2026-10-29T17:44:13.338Z"
+  },
+  {
+    "id": "985edaea93eb",
+    "file": "close-985edaea93eb.png",
+    "thumb": "985edaea93eb.webp",
+    "width": 1144,
+    "height": 702,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "opportunity",
+      "deal stage",
+      "pipeline",
+      "status pills",
+      "won/lost buttons"
+    ],
+    "description": "Pipeline settings: opportunity statuses (Prospect, Demo, Negotiation, Won, Lost)",
+    "source": "https://help.close.com/feature-guide/opportunities/opportunity-statuses",
+    "addedAt": "2026-10-29T17:44:13.403Z"
+  },
+  {
+    "id": "df5687c2cac9",
+    "file": "close-df5687c2cac9.png",
+    "thumb": "df5687c2cac9.webp",
+    "width": 1534,
+    "height": 795,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "list/table",
+    "tags": [
+      "opportunity",
+      "pipeline",
+      "table view",
+      "deal stage"
+    ],
+    "description": "Opportunities list view by pipeline/status",
+    "source": "https://help.close.com/feature-guide/opportunities/opportunities-report",
+    "addedAt": "2026-10-29T17:44:13.455Z"
+  },
+  {
+    "id": "18c98c7267ef",
+    "file": "twenty-18c98c7267ef.webp",
+    "thumb": "18c98c7267ef.webp",
+    "width": 1600,
+    "height": 1000,
+    "app": "Twenty",
+    "category": "CRM",
+    "screenType": "pipeline/kanban",
+    "tags": [
+      "kanban",
+      "opportunity",
+      "deal stage",
+      "deal cards"
+    ],
+    "description": "Opportunities kanban board with record card hover",
+    "source": "https://twenty.com/releases",
+    "addedAt": "2026-10-29T17:44:13.498Z"
+  },
+  {
+    "id": "0890bc6b2177",
+    "file": "hubspot-0890bc6b2177.png",
+    "thumb": "0890bc6b2177.webp",
+    "width": 1974,
+    "height": 1422,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "upgrade",
+      "upsell",
+      "pricing",
+      "plan comparison",
+      "sidebar nav",
+      "billing"
+    ],
+    "description": "In-app pricing page in settings: Sales Hub Starter/Professional/Enterprise comparison with product sidebar",
+    "source": "https://knowledge.hubspot.com/account-management/how-do-i-upgrade-my-hubspot-account",
+    "addedAt": "2026-10-29T17:44:13.551Z"
+  },
+  {
+    "id": "86bf4a226769",
+    "file": "hubspot-86bf4a226769.png",
+    "thumb": "86bf4a226769.webp",
+    "width": 2100,
+    "height": 933,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "upgrade",
+      "add-on",
+      "billing",
+      "subscription",
+      "upsell"
+    ],
+    "description": "Account & Billing \u203a Products & Add-ons: plan, additional seats and credits with View pricing",
+    "source": "https://knowledge.hubspot.com/billing/where-can-i-find-my-subscription-and-contacts-or-email-send-limit-information-in-hubspot",
+    "addedAt": "2026-10-29T17:44:13.604Z"
+  },
+  {
+    "id": "9cb356975230",
+    "file": "hubspot-9cb356975230.png",
+    "thumb": "9cb356975230.webp",
+    "width": 2100,
+    "height": 590,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "seats",
+      "upgrade",
+      "billing",
+      "add-on"
+    ],
+    "description": "Billing seats card (3/4 core seats) with Add seats button",
+    "source": "https://knowledge.hubspot.com/billing/where-can-i-find-my-subscription-and-contacts-or-email-send-limit-information-in-hubspot",
+    "addedAt": "2026-10-29T17:44:13.630Z"
+  },
+  {
+    "id": "9d019ec31700",
+    "file": "hubspot-9d019ec31700.png",
+    "thumb": "9d019ec31700.webp",
+    "width": 1500,
+    "height": 615,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "seats",
+      "upgrade",
+      "users",
+      "add-on",
+      "upsell"
+    ],
+    "description": "Users & Teams Seats tab: seat types with Add seats links",
+    "source": "https://knowledge.hubspot.com/account-management/manage-seats",
+    "addedAt": "2026-10-29T17:44:13.651Z"
+  },
+  {
+    "id": "e50c7582a629",
+    "file": "hubspot-e50c7582a629.png",
+    "thumb": "e50c7582a629.webp",
+    "width": 1164,
+    "height": 1260,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "seats",
+      "upgrade",
+      "add-on",
+      "purchase"
+    ],
+    "description": "Buy additional seats panel with seat type quantity steppers",
+    "source": "https://knowledge.hubspot.com/account-management/manage-seats",
+    "addedAt": "2026-10-29T17:44:13.676Z"
+  },
+  {
+    "id": "b8c638997d1c",
+    "file": "hubspot-b8c638997d1c.png",
+    "thumb": "b8c638997d1c.webp",
+    "width": 1200,
+    "height": 1034,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "upgrade",
+      "usage limit",
+      "pricing",
+      "billing"
+    ],
+    "description": "Maximum Marketing Contacts modal with tier and price delta (+$225/mo)",
+    "source": "https://knowledge.hubspot.com/account/understand-marketing-contacts-billing",
+    "addedAt": "2026-10-29T17:44:13.701Z"
+  },
+  {
+    "id": "519e4de6b53d",
+    "file": "hubspot-519e4de6b53d.png",
+    "thumb": "519e4de6b53d.webp",
+    "width": 1500,
+    "height": 889,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "usage limit",
+      "billing",
+      "upgrade",
+      "sidebar nav",
+      "settings nav"
+    ],
+    "description": "Account & Billing usage limits page with Increase limit links and billing sidebar",
+    "source": "https://knowledge.hubspot.com/account-management/review-account-limits",
+    "addedAt": "2026-10-29T17:44:13.732Z"
+  },
+  {
+    "id": "7a0cc6b94035",
+    "file": "hubspot-7a0cc6b94035.png",
+    "thumb": "7a0cc6b94035.webp",
+    "width": 2446,
+    "height": 1284,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "settings",
+    "tags": [
+      "usage limit",
+      "objects",
+      "billing",
+      "progress bar"
+    ],
+    "description": "Record/object limits tab showing usage vs plan limit",
+    "source": "https://knowledge.hubspot.com/account-management/use-your-hubspot-subscription",
+    "addedAt": "2026-10-29T17:44:13.760Z"
+  },
+  {
+    "id": "3a576e2cb9da",
+    "file": "airtable-3a576e2cb9da.png",
+    "thumb": "3a576e2cb9da.webp",
+    "width": 2312,
+    "height": 466,
+    "app": "Airtable",
+    "category": "Productivity",
+    "screenType": "dashboard",
+    "tags": [
+      "upgrade",
+      "trial",
+      "upsell",
+      "banner",
+      "upgrade cta"
+    ],
+    "description": "Home upgrade banner: Upgrade to the Team plan before your trial expires in 13 days",
+    "source": "https://support.airtable.com/docs/airtable-plans",
+    "addedAt": "2026-10-29T17:44:13.788Z"
   }
 ]
