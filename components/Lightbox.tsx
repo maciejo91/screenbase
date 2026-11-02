@@ -100,12 +100,12 @@ export default function Lightbox(p: Props) {
         <div className="relative min-h-0 flex-1 bg-muted/60">
           {tall ? (
             <ScrollArea className="h-full">
-              <div className="flex justify-center p-4 sm:p-10">
+              <div className="flex justify-center px-16 py-4 sm:py-10">
                 <StageImage key={s.id} s={s} tall />
               </div>
             </ScrollArea>
           ) : (
-            <div className="flex h-full items-center justify-center p-4 sm:p-10">
+            <div className="flex h-full items-center justify-center px-16 py-4 sm:py-10">
               <StageImage key={s.id} s={s} tall={false} />
             </div>
           )}
@@ -306,7 +306,7 @@ function NavButton({ side, disabled, onClick }: { side: "left" | "right"; disabl
       onClick={onClick}
       disabled={disabled}
       aria-label={side === "left" ? "Previous screen" : "Next screen"}
-      className={"absolute top-1/2 -translate-y-1/2 rounded-full bg-background/90 shadow-sm backdrop-blur disabled:opacity-0 " + (side === "left" ? "left-4" : "right-4")}
+      className={"absolute top-1/2 z-10 -translate-y-1/2 rounded-full bg-background/90 shadow-sm backdrop-blur active:!-translate-y-1/2 disabled:opacity-0 " + (side === "left" ? "left-4" : "right-4")}
     >
       {side === "left" ? <ChevronLeftIcon /> : <ChevronRightIcon />}
     </Button>

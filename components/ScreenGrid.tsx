@@ -2,37 +2,42 @@
 
 import { memo, useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import type { Layout } from "@/lib/url";
 import type { Screen } from "@/lib/types";
 import { appHref, thumbUrl } from "@/lib/types";
-import { Badge } from "@/components/ui/badge";
 import AppAvatar from "./AppAvatar";
 
 const PAGE = 60;
 
+function captionOf(s: Screen) {
+  return s.description?.replace(/^\[Placeholder\]\s*/, "").trim() || s.tags.slice(0, 4).join(" · ");
+}
+
 /**
- * Uniform 16:10 grid (fixed aspect → zero layout shift). Renders progressively:
+ * Three-up 16:10 grid (fixed aspect → zero layout shift). Renders progressively:
  * the first PAGE cards immediately, more as the sentinel scrolls into view.
  */
-export default function ScreenGrid({ screens, onOpen, showApp = true }: { screens: Screen[]; onOpen: (id: string) => void; showApp?: boolean }) {
-  const [count, setCount] = useState(PAGE);
+export default function ScreenGrid({ screens, onOpen, showApp = true, layout = "grid" }: { screens: Screen[]; onOpen: (id: string) => void; showApp?: boolean; layout?: Layout }) {
+  const page = layout === "stack" ? 8 : PAGE;
+  const [count, setCount] = useState(page);
   const sentinel = useRef<HTMLDivElement>(null);
 
-  // reset when the result set changes
-  useEffect(() => setCount(PAGE), [screens]);
+  // reset when the result set or the page size changes
+  useEffect(() => setCount(page), [screens, page]);
 
   useEffect(() => {
     const el = sentinel.current;
     if (!el || count >= screens.length) return;
-    const io = new IntersectionObserver((e) => e[0].isIntersecting && setCount((c) => c + PAGE), { rootMargin: "1200px 0px" });
+    const io = new IntersectionObserver((e) => e[0].isIntersecting && setCount((c) => c + page), { rootMargin: "1200px 0px" });
     io.observe(el);
     return () => io.disconnect();
-  }, [count, screens.length]);
+  }, [count, screens.length, page]);
 
   return (
     <>
-      <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+      <div className={(layout === "stack" ? "mx-auto flex w-full max-w-[1440px] flex-col gap-16" : "grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3") + " [overflow-anchor:none]"}>
         {screens.slice(0, count).map((s, i) => (
-          <Card key={s.id} s={s} onOpen={onOpen} eager={i < 8} showApp={showApp} />
+          <Card key={s.id} s={s} onOpen={onOpen} eager={i < (layout === "stack" ? 2 : 6)} showApp={showApp} layout={layout} paint={i < (layout === "stack" ? 2 : 6)} />
         ))}
       </div>
       <div ref={sentinel} aria-hidden className="h-px" />
@@ -40,48 +45,67 @@ export default function ScreenGrid({ screens, onOpen, showApp = true }: { screen
   );
 }
 
-const Card = memo(function Card({ s, onOpen, eager, showApp }: { s: Screen; onOpen: (id: string) => void; eager: boolean; showApp: boolean }) {
+const Card = memo(function Card({ s, onOpen, eager, showApp, layout, paint }: { s: Screen; onOpen: (id: string) => void; eager: boolean; showApp: boolean; layout: Layout; paint: boolean }) {
   const [loaded, setLoaded] = useState(false);
   const img = useRef<HTMLImageElement>(null);
+  const caption = captionOf(s);
   // image may already be decoded from cache before hydration
   useEffect(() => { if (img.current?.complete) setLoaded(true); }, []);
   return (
-    <article className="group [contain-intrinsic-size:auto_320px] [content-visibility:auto]">
+    <article className={"group" + (paint ? "" : " [content-visibility:auto] " + (layout === "stack" ? "[contain-intrinsic-size:auto_1040px]" : "[contain-intrinsic-size:auto_480px]"))}>
       <button
         onClick={() => onOpen(s.id)}
-        className="block w-full overflow-hidden rounded-xl bg-muted ring-1 ring-foreground/10 outline-none transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:shadow-[0_12px_32px_-12px_rgb(0_0_0/0.18)] focus-visible:ring-3 focus-visible:ring-ring/50"
+        className="relative block w-full rounded-2xl bg-[#f7f7f8] p-5 text-left outline-none transition-colors duration-200 hover:bg-[#f2f2f3] focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-white/[0.045] dark:hover:bg-white/[0.07]"
         aria-label={`Open ${s.app} — ${s.screenType}`}
       >
-        <div className="relative aspect-[16/10]">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            ref={img}
-            src={thumbUrl(s)}
-            alt=""
-            width={640}
-            height={400}
-            loading={eager ? "eager" : "lazy"}
-            fetchPriority={eager ? "high" : "auto"}
-            decoding="async"
-            onLoad={() => setLoaded(true)}
-            className={"absolute inset-0 size-full object-cover object-top transition-opacity duration-300 " + (loaded ? "opacity-100" : "opacity-0")}
-          />
+        <div className="overflow-hidden rounded-lg bg-white dark:bg-neutral-950">
+          <div className="relative aspect-[16/10] overflow-hidden bg-white">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              ref={img}
+              src={thumbUrl(s)}
+              alt=""
+              width={1280}
+              height={800}
+              loading={eager ? "eager" : "lazy"}
+              fetchPriority={eager ? "high" : "auto"}
+              decoding="async"
+              onLoad={() => setLoaded(true)}
+              className={"absolute top-0 left-0 h-full w-auto max-w-none transition-opacity duration-300 " + (loaded ? "opacity-100" : "opacity-0")}
+            />
+          </div>
         </div>
       </button>
-      <div className="mt-2.5 flex items-center gap-2 px-0.5">
-        {showApp ? (
-          <Link href={appHref(s.app)} prefetch={false} className="flex min-w-0 items-center gap-2 rounded-sm hover:underline hover:underline-offset-4">
-            <AppAvatar name={s.app} size={20} />
-            <span className="truncate text-sm font-medium">{s.app}</span>
+      <div className="mt-3 flex items-start gap-2.5 px-0.5">
+        {showApp && (
+          <Link href={appHref(s.app)} prefetch={false} className="mt-0.5 rounded-sm outline-none focus-visible:ring-3 focus-visible:ring-ring/50">
+            <AppAvatar name={s.app} size={22} />
           </Link>
-        ) : (
-          <span className="truncate text-sm font-medium">{s.description?.replace(/^\[Placeholder\]\s*/, "") || s.screenType}</span>
         )}
-        <Badge variant="secondary" className="ml-auto">{s.screenType}</Badge>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2">
+            {showApp ? (
+              <Link href={appHref(s.app)} prefetch={false} className="group/app min-w-0 rounded-sm outline-none focus-visible:ring-3 focus-visible:ring-ring/50">
+                <span className="block truncate text-[15px] leading-5 font-medium tracking-tight group-hover/app:underline group-hover/app:underline-offset-4">{s.app}</span>
+              </Link>
+            ) : (
+              <p className="min-w-0 truncate text-sm leading-5 font-semibold tracking-tight">{caption || s.screenType}</p>
+            )}
+            <span className="ml-auto inline-flex max-w-[46%] shrink-0 items-center truncate rounded-md bg-[#f7f7f8] px-2 py-1 text-[11px] font-medium leading-none text-neutral-500 ring-1 ring-black/[0.05] dark:bg-white/10 dark:text-neutral-300 dark:ring-white/10">
+              {s.screenType}
+            </span>
+          </div>
+          {showApp
+            ? caption && (
+                <Link href={appHref(s.app)} prefetch={false} className="rounded-sm outline-none focus-visible:ring-3 focus-visible:ring-ring/50">
+                  <span className="mt-0.5 block truncate text-[13px] leading-5 font-normal text-muted-foreground">{caption}</span>
+                </Link>
+              )
+            : s.tags.length > 0 && (
+                <p className="mt-0.5 truncate text-[13px] leading-5 text-muted-foreground">{s.tags.slice(0, 4).join(" · ")}</p>
+              )}
+        </div>
       </div>
-      {s.tags.length > 0 && (
-        <div className={"mt-1 truncate text-xs text-muted-foreground " + (showApp ? "pl-[28px]" : "px-0.5")}>{s.tags.slice(0, 4).join(" · ")}</div>
-      )}
     </article>
   );
 });

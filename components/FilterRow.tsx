@@ -1,58 +1,83 @@
 "use client";
 
 import { memo, useState } from "react";
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { ChevronsUpDownIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { cn } from "@/lib/utils";
 
-function FilterRow({
+function FilterSelect({
   icon,
   label,
+  searchPlaceholder,
   items,
   value,
   onChange,
-  limit = 14,
 }: {
   icon: React.ReactNode;
   label: string;
+  searchPlaceholder: string;
   items: [string, number][];
   value: string[];
   onChange: (v: string[]) => void;
-  limit?: number;
 }) {
-  const [expanded, setExpanded] = useState(false);
-  // selected chips stay visible (first) even if their count drops to 0
-  const selected = value.map((v) => items.find(([k]) => k === v) ?? ([v, 0] as [string, number]));
-  const rest = items.filter(([k]) => !value.includes(k));
-  const shown = [...selected, ...(expanded ? rest : rest.slice(0, Math.max(0, limit - selected.length)))];
-  const hidden = selected.length + rest.length - shown.length;
+  const [open, setOpen] = useState(false);
+  const known = new Set(items.map(([k]) => k));
+  const ordered = [...items, ...value.filter((v) => !known.has(v)).map((v) => [v, 0] as [string, number])];
+  const toggle = (v: string) => onChange(value.includes(v) ? value.filter((x) => x !== v) : [...value, v]);
+  const summary = value.length === 0 ? label : value.length === 1 ? value[0] : `${label} · ${value.length}`;
 
   return (
-    <div className="flex flex-col gap-1.5 sm:flex-row sm:items-start sm:gap-3">
-      <div className="flex w-24 shrink-0 items-center gap-1.5 sm:pt-1.5 text-xs font-medium text-muted-foreground [&_svg]:size-3.5">
-        {icon}
-        {label}
-      </div>
-      <ToggleGroup type="multiple" variant="outline" size="sm" spacing={1} value={value} onValueChange={onChange} className="no-scrollbar -mx-5 w-auto flex-1 flex-nowrap overflow-x-auto px-5 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" aria-label={label}>
-        {shown.map(([v, n]) => (
-          <ToggleGroupItem
-            key={v}
-            value={v}
-            aria-label={v}
-            className="rounded-full! border-border px-3 font-normal data-[state=on]:border-primary data-[state=on]:bg-primary data-[state=on]:text-primary-foreground"
-          >
-            {v}
-            <span className="tabular-nums text-muted-foreground group-data-[state=on]/toggle:text-primary-foreground/60">{n}</span>
-          </ToggleGroupItem>
-        ))}
-        {!shown.length && <span className="pt-1 text-sm text-muted-foreground">—</span>}
-        {(hidden > 0 || expanded) && rest.length > limit - selected.length && (
-          <Button variant="ghost" size="sm" className="rounded-full text-muted-foreground" onClick={() => setExpanded((x) => !x)}>
-            {expanded ? "Show less" : `+${hidden} more`}
-          </Button>
-        )}
-      </ToggleGroup>
-    </div>
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button
+          variant="outline"
+          role="combobox"
+          aria-expanded={open}
+          aria-label={label}
+          className={cn("h-9 max-w-56 justify-between gap-2 font-normal", value.length > 0 && "border-foreground/15 bg-muted")}
+        >
+          <span className="flex min-w-0 items-center gap-1.5 [&_svg]:size-3.5 [&_svg]:text-muted-foreground">
+            {icon}
+            <span className="truncate">{summary}</span>
+          </span>
+          <ChevronsUpDownIcon className="text-muted-foreground" />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="w-64 p-0" align="start">
+        <Command>
+          <CommandInput placeholder={searchPlaceholder} />
+          <CommandList>
+            <CommandEmpty>No matches.</CommandEmpty>
+            <CommandGroup>
+              {ordered.map(([v, n]) => (
+                <CommandItem
+                  key={v}
+                  value={v}
+                  data-checked={value.includes(v)}
+                  onSelect={() => toggle(v)}
+                  className="grid w-full grid-cols-[minmax(0,1fr)_2rem_1rem]"
+                >
+                  <span className="truncate">{v}</span>
+                  <span className="text-right text-xs tabular-nums text-muted-foreground">{n}</span>
+                </CommandItem>
+              ))}
+            </CommandGroup>
+          </CommandList>
+          {value.length > 0 && (
+            <button
+              type="button"
+              className="flex w-full cursor-pointer items-center border-t px-3 py-2 text-left text-sm text-muted-foreground hover:bg-muted"
+              onClick={() => onChange([])}
+            >
+              Clear
+            </button>
+          )}
+        </Command>
+      </PopoverContent>
+    </Popover>
   );
 }
 
-export default memo(FilterRow);
+export default memo(FilterSelect);

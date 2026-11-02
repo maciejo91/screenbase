@@ -4,20 +4,20 @@ import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } f
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import {
-  AppWindowIcon, ArrowLeftIcon, CommandIcon, GalleryVerticalEndIcon, ImageIcon, LayersIcon,
-  SearchIcon, TagIcon, UploadIcon, XIcon,
+  AppWindowIcon, ArrowLeftIcon, CommandIcon, GalleryVerticalEndIcon, GalleryVerticalIcon, ImageIcon, LayersIcon,
+  LayoutGridIcon, SearchIcon, TagIcon, UploadIcon, XIcon,
 } from "lucide-react";
 import type { Screen } from "@/lib/types";
 import { appHref } from "@/lib/types";
 import { makeFuse, runSearch } from "@/lib/search";
-import { viewToSearch, type ViewState } from "@/lib/url";
+import { viewToSearch, type Layout, type ViewState } from "@/lib/url";
 import { filesFromDrop, type QueuedFile } from "@/lib/files";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput } from "@/components/ui/input-group";
 import { Kbd, KbdGroup } from "@/components/ui/kbd";
 import { Empty, EmptyContent, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@/components/ui/empty";
-import FilterRow from "./FilterRow";
+import FilterSelect from "./FilterRow";
 import ScreenGrid from "./ScreenGrid";
 import AppAvatar from "./AppAvatar";
 
@@ -58,6 +58,8 @@ export default function Library({
   const [typeOnly, setTypeOnly] = useState(true);
   const [sel, setSel] = useState<Sel>({ screenType: initialView.type, app: lockedApp ? [] : initialView.app, tags: initialView.tag });
   const [openId, setOpenId] = useState<string | null>(initialView.s);
+  const [layout, setLayout] = useState<Layout>(initialView.layout);
+  const layoutReady = useRef(false);
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [paletteLoaded, setPaletteLoaded] = useState(false);
   const [importOpen, setImportOpen] = useState(false);
@@ -104,14 +106,23 @@ export default function Library({
     setQuery("");
   }, []);
 
+  // A layout change resizes every card. Scroll anchoring would keep a later card in view and hide the first ones.
+  useEffect(() => {
+    if (!layoutReady.current) {
+      layoutReady.current = true;
+      return;
+    }
+    window.scrollTo(0, 0);
+  }, [layout]);
+
   // Shareable URLs: mirror search / filters / open screen into the query string (no navigation, no re-render).
   useEffect(() => {
     const t = setTimeout(() => {
-      const search = viewToSearch({ q: deferredQuery.trim(), type: sel.screenType, app: sel.app, tag: sel.tags, s: openId });
+      const search = viewToSearch({ q: deferredQuery.trim(), type: sel.screenType, app: sel.app, tag: sel.tags, s: openId, layout });
       if (search !== window.location.search) window.history.replaceState(window.history.state, "", window.location.pathname + search);
     }, 150);
     return () => clearTimeout(t);
-  }, [deferredQuery, sel, openId]);
+  }, [deferredQuery, sel, openId, layout]);
 
   // Keyboard: ⌘K / Ctrl+K palette, "/" focuses search.
   useEffect(() => {
@@ -178,8 +189,8 @@ export default function Library({
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-30 border-b bg-background/80 backdrop-blur-xl">
-        <div className="mx-auto flex h-14 max-w-[1680px] items-center gap-3 px-5 sm:px-8">
+      <header className="sticky top-0 z-30 bg-background/80 backdrop-blur-xl">
+        <div className="mx-auto flex h-14 max-w-[1840px] items-center gap-3 px-5 sm:px-8">
           <Link href="/" className="flex items-center gap-2.5 rounded-md outline-none focus-visible:ring-3 focus-visible:ring-ring/50">
             <span className="flex size-7 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <GalleryVerticalEndIcon className="size-4" />
@@ -205,8 +216,8 @@ export default function Library({
         </div>
       </header>
 
-      <main className="mx-auto max-w-[1680px] px-5 pb-24 sm:px-8">
-        {lockedApp ? (
+      <main className="mx-auto max-w-[1840px] px-5 pb-24 sm:px-8">
+        {lockedApp && (
           <section className="pt-8 pb-6">
             <Button asChild variant="ghost" size="sm" className="-ml-2.5 text-muted-foreground">
               <Link href="/"><ArrowLeftIcon /> All screens</Link>
@@ -226,15 +237,10 @@ export default function Library({
               ))}
             </div>
           </section>
-        ) : (
-          <section className="pt-10 pb-2">
-            <h1 className="text-3xl font-semibold tracking-tight">Find a pattern</h1>
-            <p className="mt-1.5 text-muted-foreground">Search web SaaS &amp; CRM screens by app, screen type, pattern or note.</p>
-          </section>
         )}
 
-        <div className={lockedApp ? "pb-5" : "pt-4 pb-6"}>
-          <InputGroup className={(lockedApp ? "h-10" : "h-12") + " rounded-xl bg-background shadow-xs"}>
+        <div className={lockedApp ? "pb-5" : "pt-8 pb-6"}>
+          <InputGroup className={(lockedApp ? "h-10" : "h-12") + " rounded-[1rem] border-0 bg-muted shadow-none"}>
             <InputGroupAddon className="pl-3.5">
               <SearchIcon className={lockedApp ? "size-4!" : "size-5!"} />
             </InputGroupAddon>
@@ -275,13 +281,33 @@ export default function Library({
           )}
         </div>
 
-        <section className="space-y-2.5 border-b pb-6">
-          <FilterRow icon={<LayersIcon />} label="Type" items={facets.screenType} value={sel.screenType} limit={12} onChange={(v) => setSel((p) => ({ ...p, screenType: v }))} />
+        <div className="flex flex-wrap items-center gap-2 pb-6">
+          <FilterSelect icon={<LayersIcon />} label="Type" searchPlaceholder="Search types…" items={facets.screenType} value={sel.screenType} onChange={(v) => setSel((p) => ({ ...p, screenType: v }))} />
           {!lockedApp && (
-            <FilterRow icon={<AppWindowIcon />} label="App" items={facets.app} value={sel.app} limit={12} onChange={(v) => setSel((p) => ({ ...p, app: v }))} />
+            <FilterSelect icon={<AppWindowIcon />} label="App" searchPlaceholder="Search apps…" items={facets.app} value={sel.app} onChange={(v) => setSel((p) => ({ ...p, app: v }))} />
           )}
-          <FilterRow icon={<TagIcon />} label="Patterns" items={facets.tags} value={sel.tags} limit={16} onChange={(v) => setSel((p) => ({ ...p, tags: v }))} />
-        </section>
+          <FilterSelect icon={<TagIcon />} label="Patterns" searchPlaceholder="Search patterns…" items={facets.tags} value={sel.tags} onChange={(v) => setSel((p) => ({ ...p, tags: v }))} />
+          <div role="group" aria-label="View" className="ml-auto flex h-9 items-center rounded-[0.75rem] border border-border bg-background p-0.5">
+            <button
+              type="button"
+              aria-label="Grid view"
+              aria-pressed={layout === "grid"}
+              onClick={() => setLayout("grid")}
+              className={"flex size-8 cursor-pointer items-center justify-center rounded-[0.6rem] outline-none focus-visible:ring-3 focus-visible:ring-ring/50 " + (layout === "grid" ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground")}
+            >
+              <LayoutGridIcon className="size-4" />
+            </button>
+            <button
+              type="button"
+              aria-label="Stacked view"
+              aria-pressed={layout === "stack"}
+              onClick={() => setLayout("stack")}
+              className={"flex size-8 cursor-pointer items-center justify-center rounded-[0.6rem] outline-none focus-visible:ring-3 focus-visible:ring-ring/50 " + (layout === "stack" ? "bg-muted text-foreground" : "text-muted-foreground hover:text-foreground")}
+            >
+              <GalleryVerticalIcon className="size-4" />
+            </button>
+          </div>
+        </div>
 
         <div className="flex h-14 items-center justify-between">
           <p className="text-sm text-muted-foreground" aria-live="polite">
@@ -295,7 +321,7 @@ export default function Library({
         </div>
 
         {results.length ? (
-          <ScreenGrid screens={results} onOpen={onOpen} showApp={!lockedApp} />
+          <ScreenGrid key={layout} screens={results} onOpen={onOpen} showApp={!lockedApp} layout={layout} />
         ) : (
           <Empty className="border border-dashed py-20">
             <EmptyHeader>

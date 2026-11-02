@@ -2,7 +2,7 @@ export type Screen = {
   id: string;
   /** Full-size image, file name inside /public/screens */
   file: string;
-  /** 640×400 webp thumbnail inside /public/thumbs (generated on import) */
+  /** 1280×800 webp thumbnail inside /public/thumbs (generated on import) */
   thumb?: string;
   /** Original image size in px (used for aspect ratio, no layout shift) */
   width?: number;
@@ -41,6 +41,6 @@ export const SCREEN_TYPES = [
   "other",
 ];
 
-export const thumbUrl = (s: Screen) => (s.thumb ? `/thumbs/${s.thumb}` : `/screens/${s.file}`);
+export const thumbUrl = (s: Screen) => (s.thumb ? `/thumbs/${s.thumb}?v=7` : `/screens/${s.file}`);
 export const fullUrl = (s: Screen) => `/screens/${s.file}`;
 export const appHref = (app: string) => `/apps/${encodeURIComponent(app)}`;

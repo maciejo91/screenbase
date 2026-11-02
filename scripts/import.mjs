@@ -8,7 +8,7 @@
  * - App name: --app, else the image's top-level sub-folder
  *   (screens/HubSpot/deals.png -> "HubSpot"), else "Untitled".
  * - Screen type: --type, else guessed from the file name ("pipedrive-pricing.png" -> "pricing"), else "untagged".
- * - Generates a 640×400 webp thumbnail per image in public/thumbs.
+ * - Generates a 1280×800 webp thumbnail per image in public/thumbs.
  * - Files are added in alphabetical order, which is the order the app view shows them
  *   (name flows 01-login.png, 02-onboarding.png, … to keep them in sequence).
  * - Duplicate images (same content hash) are skipped, so re-running is safe.

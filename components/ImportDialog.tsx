@@ -95,7 +95,7 @@ export default function ImportDialog({
       <DialogContent className="sm:max-w-xl">
         <DialogHeader>
           <DialogTitle>Import screenshots</DialogTitle>
-          <DialogDescription>Images are copied into the library with a 640px webp thumbnail. Tags start empty.</DialogDescription>
+          <DialogDescription>Images are copied into the library with a 1280px webp thumbnail. Tags start empty.</DialogDescription>
         </DialogHeader>
 
         <div

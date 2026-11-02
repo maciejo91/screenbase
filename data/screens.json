@@ -4236,5 +4236,33 @@
     "description": "Lead research summary: 'Lead has a high purchasing intent and can be qualified' with bullet evidence",
     "source": "https://learn.microsoft.com/en-us/dynamics365/sales/use-sales-qualification-agent",
     "addedAt": "2026-11-02T10:34:38.804Z"
+  },
+  {
+    "id": "f203d81de58c",
+    "file": "untitled-f203d81de58c.webp",
+    "thumb": "f203d81de58c.webp",
+    "width": 2048,
+    "height": 1536,
+    "app": "Untitled",
+    "category": "CRM",
+    "screenType": "untagged",
+    "tags": [],
+    "description": "",
+    "source": "own",
+    "addedAt": "2026-10-29T15:57:19.198Z"
+  },
+  {
+    "id": "5a15613d73cc",
+    "file": "untitled-5a15613d73cc.webp",
+    "thumb": "5a15613d73cc.webp",
+    "width": 2048,
+    "height": 1536,
+    "app": "Untitled",
+    "category": "CRM",
+    "screenType": "untagged",
+    "tags": [],
+    "description": "",
+    "source": "own",
+    "addedAt": "2026-10-29T15:57:19.199Z"
   }
 ]

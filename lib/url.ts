@@ -1,9 +1,10 @@
-export type ViewState = { q: string; type: string[]; app: string[]; tag: string[]; s: string | null };
+export type Layout = "grid" | "stack";
+export type ViewState = { q: string; type: string[]; app: string[]; tag: string[]; s: string | null; layout: Layout };
 
 export function parseView(sp: Record<string, string | string[] | undefined>): ViewState {
   const arr = (v: string | string[] | undefined) => (v === undefined ? [] : Array.isArray(v) ? v : [v]).filter(Boolean);
   const one = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v) || "";
-  return { q: one(sp.q), type: arr(sp.type), app: arr(sp.app), tag: arr(sp.tag), s: one(sp.s) || null };
+  return { q: one(sp.q), type: arr(sp.type), app: arr(sp.app), tag: arr(sp.tag), s: one(sp.s) || null, layout: one(sp.layout) === "stack" ? "stack" : "grid" };
 }
 
 export function viewToSearch(v: ViewState) {
@@ -13,6 +14,7 @@ export function viewToSearch(v: ViewState) {
   v.app.forEach((x) => p.append("app", x));
   v.tag.forEach((x) => p.append("tag", x));
   if (v.s) p.set("s", v.s);
+  if (v.layout === "stack") p.set("layout", "stack");
   const str = p.toString();
   return str ? `?${str}` : "";
 }

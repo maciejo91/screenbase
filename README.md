@@ -37,7 +37,7 @@ npm run import -- ./shots --app Attio --type dashboard --tags "charts,filters"
 ```
 
 - Scans the folder recursively for png, jpg, jpeg, webp, gif, avif and svg files.
-- Copies each image to `public/screens/` and writes a 640×400 webp thumbnail to `public/thumbs/`.
+- Copies each image to `public/screens/` and writes a 1280×800 webp thumbnail to `public/thumbs/`.
 - Adds an entry with **empty tags** and description, ready to tag in the UI.
 - Duplicate images (same content hash) are skipped, so re-running is safe.
 - Files are added in natural name order, which is the order the app view shows them. Prefix flows with `01-`, `02-`, … to keep them in sequence.
@@ -76,7 +76,7 @@ An array of entries like this:
 |---|---|
 | `id` | First 12 characters of the image's SHA-1 hash (the demo entries use `placeholder-NN`). |
 | `file` | Full-size image in `public/screens/`. |
-| `thumb` | 640×400 webp thumbnail in `public/thumbs/`, used only in the grid. |
+| `thumb` | 1280×800 webp thumbnail in `public/thumbs/`, used only in the grid. |
 | `width`, `height` | Original pixel size. It sets the image size in the detail view so nothing jumps while loading. |
 | `app` | Product name. |
 | `category` | E.g. `CRM`, `Helpdesk`, `Analytics`. |
