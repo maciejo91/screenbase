@@ -57,7 +57,8 @@
       "opportunity card",
       "collapsible sections",
       "activity feed",
-      "ai summary"
+      "ai summary",
+      "lead-details-tasks"
     ],
     "description": "Close lead record with a status pill under the name, an opportunity card and the activity feed.",
     "source": "own",
@@ -161,7 +162,8 @@
       "progress stepper",
       "won/lost buttons",
       "activity composer",
-      "record page"
+      "record page",
+      "lead-details-tasks"
     ],
     "description": "Pipedrive deal record with a chevron stage path showing days in each stage, plus Won/Lost buttons.",
     "source": "own",
@@ -222,7 +224,11 @@
       "progress stepper",
       "guidance for success",
       "key fields",
-      "record page"
+      "record page",
+      "lead-details-tasks",
+      "stage path",
+      "checklist",
+      "next action"
     ],
     "description": "Salesforce Lightning opportunity with the sales path, key fields and stage guidance.",
     "source": "own",
@@ -324,7 +330,10 @@
       "details panel",
       "tasks",
       "status pills",
-      "record page"
+      "record page",
+      "lead-details-tasks",
+      "task",
+      "task-state"
     ],
     "description": "Clarify deal record with an AI-generated summary, tasks, and a details panel with the stage pill.",
     "source": "own",
@@ -345,7 +354,9 @@
       "details panel",
       "sidebar nav",
       "tasks",
-      "record page"
+      "record page",
+      "lead-details-tasks",
+      "task"
     ],
     "description": "Clarify deal record with a structured AI deal summary and a right-hand details panel showing the stage.",
     "source": "own",
@@ -407,7 +418,9 @@
       "progress stepper",
       "activity timeline",
       "stage history",
-      "won/lost buttons"
+      "won/lost buttons",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Pipedrive deal record with stage path and a history timeline that logs stage changes.",
     "source": "own",
@@ -489,7 +502,8 @@
       "record page",
       "activity feed",
       "filters",
-      "status pills"
+      "status pills",
+      "lead-details-tasks"
     ],
     "description": "Close lead record header with a status pill dropdown and a filtered activity feed.",
     "source": "own",
@@ -530,7 +544,9 @@
       "ai autofill",
       "custom fields",
       "activity timeline",
-      "ai summary"
+      "ai summary",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Streak box (deal) view with a colored stage selector, AI summary and custom columns with AI autofill.",
     "source": "own",
@@ -550,7 +566,9 @@
       "task list",
       "card",
       "popover",
-      "marketing crop"
+      "marketing crop",
+      "lead-details-tasks",
+      "task"
     ],
     "description": "Copper-style record card with a Prospect status pill and an overlaid task list (marketing crop).",
     "source": "own",
@@ -572,7 +590,11 @@
       "activity feed",
       "task list",
       "cards",
-      "concept"
+      "concept",
+      "lead-details-tasks",
+      "task",
+      "next action",
+      "stage path"
     ],
     "description": "Brickline real-estate CRM buyer record with a pipeline stage stepper, next showing, matched listings and tasks.",
     "source": "own",
@@ -634,7 +656,9 @@
       "ai summary",
       "tabs",
       "status pills",
-      "concept"
+      "concept",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Luxury Presence real-estate contact record with a property activity timeline, AI summary and lead details.",
     "source": "own",
@@ -1277,7 +1301,8 @@
       "activity feed",
       "stage path",
       "record page",
-      "checklist"
+      "checklist",
+      "lead-details-tasks"
     ],
     "description": "Pipedrive deal with the Focus area highlighting a pinned note checklist.",
     "source": "research",
@@ -1464,7 +1489,9 @@
       "record page",
       "timeline",
       "attribute list",
-      "sidebar nav"
+      "sidebar nav",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Twenty company record with fields sidebar and activity timeline.",
     "source": "research",
@@ -1717,7 +1744,10 @@
       "tasks",
       "tabs",
       "context menu",
-      "due dates"
+      "due dates",
+      "lead-details-tasks",
+      "task",
+      "task-state"
     ],
     "description": "Attio company record (Notion) on the Tasks tab with grouped tasks and a delete menu.",
     "source": "https://attio.com/help/reference/attio-101/productivity/introduction-to-tasks",
@@ -1737,7 +1767,10 @@
       "conversation list",
       "email thread",
       "timeline",
-      "recipients"
+      "recipients",
+      "lead-details-tasks",
+      "sequence",
+      "activity feed"
     ],
     "description": "Attio sequence recipients list with per-recipient email step timeline.",
     "source": "https://attio.com/help/reference/automations/sequences/track-status-of-sequence-recipients",
@@ -1969,7 +2002,9 @@
       "people",
       "meeting",
       "popover",
-      "activity timeline"
+      "activity timeline",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Attio person record (Rachel Bennett) with an upcoming meeting popover and activity.",
     "source": "https://attio.com/help/reference/productivity-collaborating/call-intelligence/recording-calls-with-attio",
@@ -2164,7 +2199,8 @@
       "properties panel",
       "activity feed",
       "comments",
-      "dark mode"
+      "dark mode",
+      "lead-details-tasks"
     ],
     "description": "Linear issue detail with description, activity and a properties side panel.",
     "source": "https://linear.app/docs/assigning-issues",
@@ -2420,7 +2456,9 @@
       "stage path",
       "business process flow",
       "record page",
-      "progress stepper"
+      "progress stepper",
+      "lead-details-tasks",
+      "checklist"
     ],
     "description": "Lead record with business process flow bar open on the Qualify stage flyout (purchase timeframe, budget, decision maker) and Next Stage button",
     "source": "https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-lead-sales",
@@ -2440,7 +2478,8 @@
       "stage path",
       "progress stepper",
       "lead",
-      "opportunity"
+      "opportunity",
+      "lead-details-tasks"
     ],
     "description": "Business process flow stages (Qualify → Develop → Propose → Close) across the top of a record",
     "source": "https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview",
@@ -2575,7 +2614,9 @@
       "lead",
       "lead stage",
       "stage path",
-      "activity"
+      "activity",
+      "lead-details-tasks",
+      "next action"
     ],
     "description": "Lead stage tracker card: owner, lead type, current stage and next activity",
     "source": "https://knowledge.hubspot.com/records/view-a-lead-record",
@@ -2615,7 +2656,9 @@
       "activity timeline",
       "record page",
       "contact",
-      "tabs"
+      "tabs",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Record middle column with activity timeline",
     "source": "https://knowledge.hubspot.com/records/work-with-records",
@@ -2653,7 +2696,9 @@
       "ai summary",
       "record page",
       "customer",
-      "catch up"
+      "catch up",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Record Catch-up tab with AI summary of recent activity",
     "source": "https://knowledge.hubspot.com/records/work-with-records",
@@ -2869,7 +2914,8 @@
       "record page",
       "lead status",
       "activity feed",
-      "contact"
+      "contact",
+      "lead-details-tasks"
     ],
     "description": "Lead detail page: company, status, contacts and activity feed",
     "source": "https://help.close.com/docs/leads",
@@ -3205,7 +3251,8 @@
       "customer 360",
       "activity feed",
       "record page",
-      "marketing crop"
+      "marketing crop",
+      "lead-details-tasks"
     ],
     "description": "Customer 360 card: customer since 5 yrs, financial overview (lifetime value), support team and activity (lead created, appointment, RO, payment)",
     "source": "https://tekion.com/products/arc/crm",
@@ -3226,7 +3273,9 @@
       "activity timeline",
       "record page",
       "tabs",
-      "marketing crop"
+      "marketing crop",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Customer profile with department tabs (BDC, Sales, Service, Accounting, Marketing) and activity timeline",
     "source": "https://tekion.com/products/arc/crm",
@@ -3292,7 +3341,10 @@
       "pipeline",
       "stage path",
       "appointments",
-      "tasks"
+      "tasks",
+      "lead-details-tasks",
+      "task",
+      "counters"
     ],
     "description": "Sales Dashboard 2.0: new retail leads, open conversations, appointments, tasks and pipeline overview funnel (All Active Leads → Attempted Contact → Engaged → Unsold Visits → Sold)",
     "source": "https://www.youtube.com/watch?v=9W44_EvNOdU&t=38s",
@@ -3360,7 +3412,10 @@
       "activity feed",
       "tabs",
       "appointments",
-      "side panel"
+      "side panel",
+      "lead-details-tasks",
+      "task",
+      "task-state"
     ],
     "description": "Lead record: leads list, to-do, activity tabs (Notes, Communication, Quotes, Ownership History) and customer contact panel",
     "source": "https://www.youtube.com/watch?v=B-qv2z2H8F0&t=54s",
@@ -3383,7 +3438,10 @@
       "record page",
       "activity timeline",
       "co-buyer",
-      "side panel"
+      "side panel",
+      "lead-details-tasks",
+      "task",
+      "activity feed"
     ],
     "description": "Lead record with to-do and activity timeline plus buyer/co-buyer contact panel",
     "source": "https://www.youtube.com/watch?v=B-qv2z2H8F0&t=60s",
@@ -3405,7 +3463,10 @@
       "lead",
       "appointments",
       "tasks",
-      "salesperson"
+      "salesperson",
+      "lead-details-tasks",
+      "task",
+      "counters"
     ],
     "description": "Salesperson Dashboard: new internet leads, unresponded conversations, appointments and tasks",
     "source": "https://www.youtube.com/watch?v=B-qv2z2H8F0&t=68s",
@@ -3562,7 +3623,10 @@
       "stage path",
       "progress stepper",
       "record page",
-      "customer"
+      "customer",
+      "lead-details-tasks",
+      "task",
+      "activity feed"
     ],
     "description": "Lead record with sales stage path (Engage → Visit → Test drive → Proposal) and to-do, activity and contact panel",
     "source": "https://www.youtube.com/watch?v=bmkmdzB1C-U&t=30s",
@@ -3584,7 +3648,9 @@
       "lead snapshot",
       "ai summary",
       "record page",
-      "customer"
+      "customer",
+      "lead-details-tasks",
+      "activity feed"
     ],
     "description": "Lead record with AI Lead Snapshot summary in the activity area",
     "source": "https://www.youtube.com/watch?v=bmkmdzB1C-U&t=38s",
@@ -3761,5 +3827,414 @@
     "description": "Parts Performance Report: key business metrics and sales summary",
     "source": "https://www.youtube.com/watch?v=qra5FHAT-ng&t=68s",
     "addedAt": "2026-10-29T22:03:15.719Z"
+  },
+  {
+    "id": "1b0467175f34",
+    "file": "ashby-1b0467175f34.png",
+    "thumb": "1b0467175f34.webp",
+    "width": 3217,
+    "height": 1624,
+    "app": "Ashby",
+    "category": "ATS",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "candidate profile",
+      "record page",
+      "stage path",
+      "interview plan",
+      "activity feed",
+      "task",
+      "task-state"
+    ],
+    "description": "Ashby candidate profile: pipeline stage, interview plan steps with statuses and activity feed/notes",
+    "source": "https://docs.ashbyhq.com/candidate-profile",
+    "addedAt": "2026-11-02T10:34:38.141Z"
+  },
+  {
+    "id": "9d7c2c788c8b",
+    "file": "ashby-9d7c2c788c8b.png",
+    "thumb": "9d7c2c788c8b.webp",
+    "width": 2872,
+    "height": 576,
+    "app": "Ashby",
+    "category": "ATS",
+    "screenType": "empty state",
+    "tags": [
+      "lead-details-tasks",
+      "candidate profile",
+      "record page",
+      "empty state",
+      "task",
+      "activity feed"
+    ],
+    "description": "Ashby candidate profile with empty Interviews and Tasks sections next to an Activities list",
+    "source": "https://docs.ashbyhq.com/candidate-profile",
+    "addedAt": "2026-11-02T10:34:38.268Z"
+  },
+  {
+    "id": "bc81681a6024",
+    "file": "close-bc81681a6024.png",
+    "thumb": "bc81681a6024.webp",
+    "width": 998,
+    "height": 514,
+    "app": "Close",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "lead",
+      "task",
+      "task-state",
+      "due dates",
+      "annotated"
+    ],
+    "description": "Close lead page Tasks section (2): call task with overdue '2m ago' time, complete checkmark and follow-up task",
+    "source": "https://help.close.com/docs/tasks",
+    "addedAt": "2026-11-02T10:34:38.299Z"
+  },
+  {
+    "id": "34b3d97c9023",
+    "file": "hubspot-34b3d97c9023.png",
+    "thumb": "34b3d97c9023.webp",
+    "width": 1178,
+    "height": 938,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "lead-details-tasks",
+      "task",
+      "next action",
+      "email composer",
+      "follow-up",
+      "annotated"
+    ],
+    "description": "HubSpot email composer with 'Create a To-do task to follow up in 2 weeks' checkbox and due-date presets",
+    "source": "https://knowledge.hubspot.com/tasks/use-tasks",
+    "addedAt": "2026-11-02T10:34:38.336Z"
+  },
+  {
+    "id": "adbde7cd8036",
+    "file": "hubspot-adbde7cd8036.png",
+    "thumb": "adbde7cd8036.webp",
+    "width": 912,
+    "height": 630,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "dashboard",
+    "tags": [
+      "lead-details-tasks",
+      "task",
+      "task-state",
+      "counters",
+      "component crop",
+      "prospecting"
+    ],
+    "description": "HubSpot 'Your tasks' card: high priority 0, all tasks 6, per-type counts (To-dos 5, Calls 0 done, Emails 1, LinkedIn 0 done)",
+    "source": "https://knowledge.hubspot.com/prospecting/use-the-prospecting-workspace",
+    "addedAt": "2026-11-02T10:34:38.395Z"
+  },
+  {
+    "id": "4801c31ed295",
+    "file": "hubspot-4801c31ed295.png",
+    "thumb": "4801c31ed295.webp",
+    "width": 912,
+    "height": 698,
+    "app": "HubSpot",
+    "category": "CRM",
+    "screenType": "dashboard",
+    "tags": [
+      "lead-details-tasks",
+      "task",
+      "task-state",
+      "sequence",
+      "next action",
+      "component crop",
+      "overdue"
+    ],
+    "description": "HubSpot outreach activities card: sequence Step 2 Call task, '1 due today, 0 overdue' and link to all tasks",
+    "source": "https://knowledge.hubspot.com/prospecting/use-the-prospecting-workspace",
+    "addedAt": "2026-11-02T10:34:38.420Z"
+  },
+  {
+    "id": "7d57f4a1e1a4",
+    "file": "pipedrive-7d57f4a1e1a4.png",
+    "thumb": "7d57f4a1e1a4.webp",
+    "width": 1000,
+    "height": 667,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "deal",
+      "record page",
+      "stage path",
+      "activity composer",
+      "empty state",
+      "activity timeline"
+    ],
+    "description": "Pipedrive deal detail: stage bar, empty Focus area ('Click here to add an activity') and History timeline",
+    "source": "https://support.pipedrive.com/en/article/activities",
+    "addedAt": "2026-11-02T10:34:38.449Z"
+  },
+  {
+    "id": "b20a2ccae9ec",
+    "file": "pipedrive-b20a2ccae9ec.png",
+    "thumb": "b20a2ccae9ec.webp",
+    "width": 1434,
+    "height": 1082,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "person",
+      "record page",
+      "activity composer",
+      "task",
+      "mark as done"
+    ],
+    "description": "Pipedrive person detail scheduling a Call activity with date/time, attendees and 'Mark as done' checkbox",
+    "source": "https://support.pipedrive.com/en/article/activities",
+    "addedAt": "2026-11-02T10:34:38.478Z"
+  },
+  {
+    "id": "ad8e09b8d70e",
+    "file": "pipedrive-ad8e09b8d70e.png",
+    "thumb": "ad8e09b8d70e.webp",
+    "width": 1534,
+    "height": 1012,
+    "app": "Pipedrive",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "deal",
+      "record page",
+      "stage path",
+      "activity composer",
+      "task"
+    ],
+    "description": "Pipedrive deal (Unicorn Airlines) with stage days bar and Activity tab composer for a call",
+    "source": "https://support.pipedrive.com/en/article/activities",
+    "addedAt": "2026-11-02T10:34:38.502Z"
+  },
+  {
+    "id": "8a9174cb7a0f",
+    "file": "zendesk-8a9174cb7a0f.png",
+    "thumb": "8a9174cb7a0f.webp",
+    "width": 1596,
+    "height": 1000,
+    "app": "Zendesk",
+    "category": "Helpdesk",
+    "screenType": "inbox",
+    "tags": [
+      "lead-details-tasks",
+      "customer",
+      "conversation",
+      "side panel",
+      "activity timeline",
+      "ticket properties"
+    ],
+    "description": "Zendesk agent workspace: conversation with customer context panel and interactions timeline",
+    "source": "https://www.zendesk.com/service/help-desk-software/ticketing-system/",
+    "addedAt": "2026-11-02T10:34:38.528Z"
+  },
+  {
+    "id": "588fff59b69b",
+    "file": "dynamics-365-sales-588fff59b69b.png",
+    "thumb": "588fff59b69b.webp",
+    "width": 400,
+    "height": 413,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "up next",
+      "task",
+      "task-state",
+      "sequence",
+      "next action",
+      "component crop",
+      "annotated"
+    ],
+    "description": "Up next widget: current step (2 of 5) with Call/Mark complete, upcoming steps, 'Show completed'",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/understand-the-up-next-widget",
+    "addedAt": "2026-11-02T10:34:38.573Z"
+  },
+  {
+    "id": "537800e4cf60",
+    "file": "dynamics-365-sales-537800e4cf60.png",
+    "thumb": "537800e4cf60.webp",
+    "width": 350,
+    "height": 237,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "up next",
+      "task",
+      "task-state",
+      "completed",
+      "component crop"
+    ],
+    "description": "Up next widget expanded completed list: steps 1-4 with green check and completion timestamps",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/understand-the-up-next-widget",
+    "addedAt": "2026-11-02T10:34:38.602Z"
+  },
+  {
+    "id": "fd8e5268dc3b",
+    "file": "dynamics-365-sales-fd8e5268dc3b.png",
+    "thumb": "fd8e5268dc3b.webp",
+    "width": 1025,
+    "height": 460,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "lead",
+      "record page",
+      "up next",
+      "sequence",
+      "progress",
+      "side panel",
+      "activity timeline"
+    ],
+    "description": "Lead record with sequence details pane: progress bar, completed/current/next steps and timeline",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/understand-the-up-next-widget",
+    "addedAt": "2026-11-02T10:34:38.631Z"
+  },
+  {
+    "id": "175d0c1c41bd",
+    "file": "dynamics-365-sales-175d0c1c41bd.png",
+    "thumb": "175d0c1c41bd.webp",
+    "width": 401,
+    "height": 209,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "up next",
+      "task",
+      "next action",
+      "suggested actions",
+      "component crop"
+    ],
+    "description": "Up next: reminder email step with Email/Mark complete, 'Suggested send time' and 'Wait 5 days' next step",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/connect-with-customers",
+    "addedAt": "2026-11-02T10:34:38.662Z"
+  },
+  {
+    "id": "0a7c8d8f4e99",
+    "file": "dynamics-365-sales-0a7c8d8f4e99.png",
+    "thumb": "0a7c8d8f4e99.webp",
+    "width": 454,
+    "height": 303,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "modal",
+    "tags": [
+      "lead-details-tasks",
+      "task",
+      "task-state",
+      "completed",
+      "note",
+      "confirmation"
+    ],
+    "description": "'You've completed a sequence step' confirmation with optional note on why the task is complete",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/connect-with-customers",
+    "addedAt": "2026-11-02T10:34:38.690Z"
+  },
+  {
+    "id": "1a5563b83622",
+    "file": "dynamics-365-sales-1a5563b83622.png",
+    "thumb": "1a5563b83622.webp",
+    "width": 450,
+    "height": 381,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "up next",
+      "task",
+      "meeting",
+      "context menu",
+      "snooze",
+      "skip",
+      "component crop"
+    ],
+    "description": "Up next 'Schedule a meeting' step with overflow menu: Skip, Snooze, Assign, Note",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/connect-with-customers",
+    "addedAt": "2026-11-02T10:34:38.719Z"
+  },
+  {
+    "id": "ad3ac9ad249f",
+    "file": "dynamics-365-sales-ad3ac9ad249f.png",
+    "thumb": "ad3ac9ad249f.webp",
+    "width": 771,
+    "height": 175,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "lead",
+      "suggested actions",
+      "next action",
+      "ai summary",
+      "component crop"
+    ],
+    "description": "Lead insights 'Suggested action' card: AI rationale with a 'Draft email' call to action",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/use-sales-qualification-agent",
+    "addedAt": "2026-11-02T10:34:38.747Z"
+  },
+  {
+    "id": "57924b481ad8",
+    "file": "dynamics-365-sales-57924b481ad8.png",
+    "thumb": "57924b481ad8.webp",
+    "width": 753,
+    "height": 237,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "lead",
+      "ai summary",
+      "insights",
+      "cards",
+      "component crop"
+    ],
+    "description": "Lead key insights: three 'Why is this lead warm' cards (product interest, signals, point of contact)",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/use-sales-qualification-agent",
+    "addedAt": "2026-11-02T10:34:38.775Z"
+  },
+  {
+    "id": "60d31ee495b8",
+    "file": "dynamics-365-sales-60d31ee495b8.png",
+    "thumb": "60d31ee495b8.webp",
+    "width": 888,
+    "height": 276,
+    "app": "Dynamics 365 Sales",
+    "category": "CRM",
+    "screenType": "detail/record",
+    "tags": [
+      "lead-details-tasks",
+      "lead",
+      "ai summary",
+      "qualification",
+      "next action",
+      "component crop"
+    ],
+    "description": "Lead research summary: 'Lead has a high purchasing intent and can be qualified' with bullet evidence",
+    "source": "https://learn.microsoft.com/en-us/dynamics365/sales/use-sales-qualification-agent",
+    "addedAt": "2026-11-02T10:34:38.804Z"
   }
 ]
